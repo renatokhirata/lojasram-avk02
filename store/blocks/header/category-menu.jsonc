@@ -1,0 +1,455 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass": "top-menu"
+    },
+    "children": [
+      "menu-item#estrada",
+      "menu-item#mtb",
+      "menu-item#acessorios",
+      "menu-item#life"
+      
+    ]
+  },
+
+  /* MENU ITEM - MTB -------------------------------------------- INIT */
+
+  "menu-item#mtb": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MTB",
+        "text": "MTB"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mtb"
+    ]
+  },
+  "vtex.menu@2.x:submenu#mtb": {
+    "children": [
+      "flex-layout.row#menu-mtb"
+    ]
+  },
+  "flex-layout.row#menu-mtb": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "top-sumenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mtb",
+      "vtex.menu@2.x:menu#mtb1",
+      "vtex.menu@2.x:menu#mtb2"
+    ]
+  },
+  "vtex.menu@2.x:menu#mtb": {
+    "props": {
+      "width": "100%",
+      "orientation": "vertical",
+      "blockClass": "top-submenu",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/Aros",
+            "tagTitle": "Aros",
+            "text": "Aros"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/3zero-moto",
+            "tagTitle": "Rodas",
+            "text": "Rodas"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mtb1": {
+    "props": {
+      "width": "100%",
+      "orientation": "vertical",
+      "blockClass": "top-submenu",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/Aros",
+            "tagTitle": "Aros",
+            "text": "Aros"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/3zero-moto",
+            "tagTitle": "Rodas",
+            "text": "Rodas"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#mtb2": {
+    "props": {
+      "width": "100%",
+      "orientation": "vertical",
+      "blockClass": "top-submenu",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/Aros",
+            "tagTitle": "Aros",
+            "text": "Aros"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/3zero-moto",
+            "tagTitle": "Rodas",
+            "text": "Rodas"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+
+  "rich-text#titleprodutos": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "produtos"
+    }
+  },
+
+  /* MENU ITEM - MTB -------------------------------------------- END */
+
+  /* MENU ITEM - ESTRADA -------------------------------------------- INIT */
+
+  "menu-item#estrada": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Estrada",
+        "text": "Estrada"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#estrada"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#estrada": {
+    "props": {
+      "width": "100%",
+      "blockClass": "top-submenu"
+    },
+    "children": [
+      "flex-layout.row#menu-estrada"
+    ]
+  },
+
+  "flex-layout.row#menu-estrada": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "top-sumenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#estrada",
+      "vtex.menu@2.x:menu#estrada1",
+      "vtex.menu@2.x:menu#estrada2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#estrada": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Adaptador de Válvula",
+            "text": "Adaptador de Válvula"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Canote",
+            "text": "Canote"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Extensor de Válvula",
+            "text": "Extensor de Válvula"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#estrada1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "top-submenu",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Adaptador de Válvula",
+            "text": "Adaptador de Válvula"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#estrada2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "top-submenu",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Adaptador de Válvula",
+            "text": "Adaptador de Válvula"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#titleprodutos"
+    ]
+  },
+
+  /* MENU ITEM - ESTRADA -------------------------------------------- END */
+
+  /* MENU ITEM - ACESSÓRIOS -------------------------------------------- INIT */
+
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#acessorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#acessorios": {
+    "children": ["flex-layout.row#menu-acessorios"]
+  },
+  "flex-layout.row#menu-acessorios": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "top-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios": {
+    "props": {
+      "width": "100%",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Squeeze",
+            "text": "Squeeze"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Suporte de Garrafa",
+            "text": "Suporte de Garrafa"
+          }
+        }
+      ]
+    }
+  },
+
+  /* MENU ITEM - ACESSÓRIOS -------------------------------------------- END */
+
+  "menu-item#life": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://blog.sram.com.br/",
+        "noFollow": true,
+        "tagTitle": "Life",
+        "text": "Life"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#life"
+    ]
+  },
+  "vtex.menu@2.x:submenu#life": {
+    "children": ["flex-layout.row#menu-life"]
+  },
+  "flex-layout.row#menu-life": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "top-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#life"
+    ]
+  },
+  "vtex.menu@2.x:menu#life": {
+    "props": {
+      "width": "100%",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Squeeze",
+            "text": "Squeeze"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Suporte de Garrafa",
+            "text": "Suporte de Garrafa"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  }
+}

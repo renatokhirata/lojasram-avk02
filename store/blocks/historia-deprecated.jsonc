@@ -1,0 +1,124 @@
+{
+    "store.custom#historia-deprecated": {
+        "blocks": [
+            "info-card#history-banner",
+            "rich-text#history-section-1",
+            "image#history-section-1",
+            "rich-text#history-section-2",
+            "image#history-section-2",
+            "rich-text#history-section-3",
+            "image#history-section-3",
+            "rich-text#history-section-4",
+            "image#history-section-4",
+            "rich-text#history-section-5",
+            "image#history-section-5",
+            "rich-text#history-section-6",
+            "image#history-section-6",
+            "rich-text#history-section-7",
+            "image#history-section-7"
+        ]
+    },
+    "info-card#history-banner": {
+        "props": {
+            "id": "info-card-history",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/history-banner-1.jpg",
+            "headline": "A ZIPP ATRAVÉS DO TEMPO",
+            "subhead": "Marcos importantes na nossa história de tornar você mais rápido",
+            "blockClass": "info-card-main-history",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#history-section-1": {
+        "props": {
+            "text": "**1988** \n A Zipp está enraizada no cenário das corridas automobilísticas de Indy. O engenheiro de motorsports Leigh Sargent se especializou em reparo, modificação, fabricação e design aerodinâmico de carros para Indy 500. Mas depois de examinar rodas de disco para bicicletas na década de 1980, ele viu o potencial para projetar algo melhor e mais rápido. Ele registrou Zipp como uma marca comercial e começou a trabalhar. O primeiro produto da Zipp, a roda de disco, foi projetado para sistemas de roda livre de sete velocidades e está disponível em quatro cores. Esses produtos de carbono foram projetados junto com as peças de corrida. O objetivo de cada um era o mesmo: criar armas rápidas.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-1": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-2.jpg",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-2": {
+        "props": {
+            "text": "**1989** \n A Zipp apresentou a primeira roda de carbono de três raios, a Zipp 3000. Como as rodas de disco, estavam disponíveis em quatro cores. Este produto foi abandonado quando a Zipp encontrou designs mais rápidos. \n\n **1990** \n Em 1990, apenas dois anos após nossa fundação, a lenda de Kona, Mark Allen, se tornou o primeiro vencedor a usar rodas Zipp. Os primeiros produtos da Zipp, incluindo a roda com três raios, a roda de perfil alto Zipp 440 e a bicicleta Zipp 2001, tornaram-se as armas aerodinâmicas preferidas no início dos anos 1990.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-2": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-3.jpg",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-3": {
+        "props": {
+            "text": "**1991** \n As rodas Zipp 400 entram em produção. Esta roda com raios foi a base para inovações posteriores, incluindo as linhas Firecrest e NSW. \n\n **1995** \n Os dois homens que ajudaram a construir a Zipp em suas primeiras duas décadas posam juntos. O engenheiro Leigh Sargent com o empresário Andy Ording, que se tornou o proprietário da Zipp Speed ​​Weaponry em 1999. \n\n **1997** \n A Zipp continua ganhando mercado no triatlo e nas corridas de estrada com foco nas rodas. Naquela primeira década, Zipp aproveitou a mentalidade do automobilismo ao desenvolver produtos, ajudando a ser o pioneiro no uso do túnel de vento na indústria de bicicletas. Zipp ainda empregou vários veteranos do automobilismo, incluindo os melhores engenheiros. Os icônicos quadros 2001 e 3001 da Zipp se tornaram símbolos icônicos de velocidade de alto desempenho. Mesmo depois de serrem descontinuados no final de 1997, esses conjuntos de quadros continuam sendo itens altamente cobiçados.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-3": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-4.jpg",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-4": {
+        "props": {
+            "text": "**1999**\n Zipp muda-se para uma fábrica dedicada com clima controlado na Rua Main em Speedway, Indiana, a mesma da mundialmente famosa pista de Indianapolis Motor Speedway. \n\n **2000**\n Zipp assina com a equipe belga Lotto-Adecco. Esta é a investida da Zipp no ​​patrocínio oficial de uma equipe de alto nível do Tour de France. \n\n **2003** \n Este foi um grande ano. Zipp assina como patrocinador da poderosa equipe CSC. A equipe vence duas etapas e a classificação geral das equipes no Tour de France. Além dos resultados, a CSC se torna um parceiro valioso no desenvolvimento de rodas. Isso inclui fornecer aos engenheiros da Zipp e ao construtor de rodas mestre Nic James um feedback inestimável sobre como melhorar as rodas para serem rápidas e duráveis. Além do mais, este foi o ano em que a Zipp introduziu sua agora icônica roda de disco com covinhas. \n\n **2006** \n Os engenheiros da Zipp trabalharam com profissionais patrocinados da equipe CSC para testar protótipos de rodas de carbono na Floresta Arenberg, o setor de paralelepípedos mais famoso da Paris-Roubaix. O objetivo da Zipp era projetar uma roda de carbono capaz de vencer a Paris-Roubaix. Membros da equipe CSC, a partir da esquerda, Lars Michaelson (Dinamarca), Fabian Cancellara (Suíça) e Allan Johansen (Dinamarca) inspecionam uma roda. Os testes foram cruciais para o desenvolvimento da tecnologia Carbon Bridge™ que tornou as rodas de carbono duráveis ​​o suficiente para que a Zipp 303 vencesse a Paris-Roubaix e o Tour de Flanders.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-4": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-5.jpg",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-5": {
+        "props": {
+            "text": "**2007**\n A SRAM adquire a Zipp, fornecendo experiência e recursos adicionais. \n\n **2008**\n Carlos Sastre, da Espanha, vence a Alpe d'Huez, levando a camisa amarela e marcando sua vitória no Tour de France. Ainda exibimos sua camisa amarela em nosso escritório em Indianápolis. \n\n **2010** \n Este é um dos anos mais significativos da Zipp. Em abril, o suíço Fabian Cancellara vence o Ronde van Vlaanderen (Tour de Flandres) e a Paris-Roubaix em estilo de comando a bordo das rodas Zipp 303. Essa conquista foi um momento monumental na história da Zipp, pois marcou a primeira vez em que rodas de carbono foram levadas à vitória nas duas clássicas de paralelepípedos da Primavera. No final do ano, a Zipp apresenta seu design Firecrest, incluindo Firecrest Carbon Clinchers. Seu design de aro largo prova ser mais rápido e mais estável em ventos laterais. O sistema de resina nas laterais de carbono gerencia o calor até mesmo nas descidas de montanha mais longas. A tecnologia Firecrest se tornaria a base para as inovações das rodas modernas da Zipp. \n Atletas Zipp também brilham. No Campeonato Mundial de Estrada, Zipp arrebatou o pódio na corrida de estrada com Thor Hushovd da Noruega, ouro; Matti Breschel (Dinamarca), prata; e bronze de Allan Davis (Austrália). Fabian Cancellara (Suíça) e Emma Pooley (Grã-Bretanha) conquistaram medalhas de ouro em contra-relógio. No triatlo, o australiano Chris McCormack venceu o masculino e Mirinda Carfrae o Mundial feminino em Kona. \n Para encerrar este ano incrível, a Zipp (junto com as principais funções SRAM) mudou-se para uma nova instalação especialmente construída em 5315 Walt Place em Indianápolis, cerca de 5 milhas a noroeste de nossa antiga fábrica em Speedway. \n\n **2012** \n Tom Boonen da Omega Pharma-Quick-Stepp desfruta de uma das temporadas Clássicas de Primavera de maior sucesso da época, vencendo o Tour de Flanders e Paris-Roubaix nos domingos consecutivos a bordo das Zipp 303s. \n\n **2014** \n O holandês Niki Terpstra lançou seu ataque solo de sucesso com cerca de 6 km restantes na Paris-Roubaix 2014.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-5": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-6.jpg?v=2",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-6": {
+        "props": {
+            "text": "**2016** \n A americana Evelyn Stevens, da Boels-Dolmans Cycling Team, estabelece o recorde mundial feminino da hora UCI, cobrindo 47.980 km em 60 minutos a bordo de uma roda disco Zipp 900 dianteira e uma disco Super-9 traseira. \n A Zipp apresenta o 454 NSW Carbon Cincher, o primeiro grande produto da indústria do ciclismo a ser projetado com biomimética. Os nós ondulantes HyperFoil ™ em forma de barbatana do 454 NSW são desenvolvidos em parte pelo estudo das nadadeiras das baleias jubarte. \n\n **2018** \n O belga Wout van Aert vence seu terceiro campeonato mundial consecutivo de ciclocross UCI na Elite Masculina, todos pilotando rodas Zipp, na Holanda. \n Ted King coloca Zipp no ​​topo do maior evento de gravel com sua vitória em Dirty Kanza 200 do Kansas. Ele pilotou a Zipp 303, tornando esta roda vencedora no asfalto, paralelepípedos, lama e (agora) cascalho.",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-6": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-7.jpg?v=2",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    },
+    "rich-text#history-section-7": {
+        "props": {
+            "text": "**2019** \n A Zipp oferece sua primeira roda de mountain bike em mais de duas décadas. As rodas de carbono 3ZERO MOTO 27,5” e 29” para Enduro / Trail, são inspiradas nos esportes à motor para fornecer aos pilotos o controle e a durabilidade necessários para a velocidade pura. A abordagem de parede única, Zipp’s Moto Technology ™, permite que os aros 'girem' de ambos os lados da superfície dos raios enquanto atravessam terrenos acidentados. Esse efeito ficou conhecido como 'Conformidade do tornozelo', uma analogia de como o tornozelo de um corredor gira para manter o pé no chão quando o corredor faz uma curva. \n A história da Zipp segue em sua quarta década com nossa única missão inalterada: Torná-lo mais rápido",
+            "blockClass": "history-section-text"
+        }
+    },
+    "image#history-section-7": {
+        "props": {
+          "src": "https://lojasram.vtexassets.com/arquivos/history-banner-8.jpg?v=2",
+          "maxWidth": "100%",
+          "blockClass": "history-section-img"
+        }
+    }
+}

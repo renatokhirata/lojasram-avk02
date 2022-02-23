@@ -1,0 +1,560 @@
+{
+  "store.custom#campanha-wheel-finder": {
+    "blocks": [
+      "flex-layout.row#campanha-wheel-finder-flex00",
+      "info-card#campanha-wheel-finder-card01",
+      "flex-layout.row#campanha-wheel-finder-flex01",
+      "info-card#campanha-wheel-finder-card02",
+      "info-card#campanha-wheel-finder-card03",
+      "flex-layout.row#campanha-wheel-horizontalcard01",
+      "info-card#campanha-wheel-finder-card04",
+      "flex-layout.row#campanha-wheel-horizontalcard02",
+      "info-card#campanha-wheel-finder-card05",
+      "flex-layout.row#campanha-wheel-horizontalcard03",
+      "info-card#campanha-wheel-finder-card06",
+      "flex-layout.row#campanha-wheel-horizontalcard04",
+      "info-card#campanha-wheel-finder-card07",
+      "flex-layout.row#campanha-wheel-horizontalcard05",
+      "info-card#campanha-wheel-finder-card08",
+      "flex-layout.row#campanha-wheel-horizontalcard06",
+      "info-card#campanha-wheel-finder-card09"
+    ]
+  },
+
+  "flex-layout.row#campanha-wheel-finder-flex00": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#campanha-wheel-finder-banner"]
+  },
+  "image#campanha-wheel-finder-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "OFERTA DE RODAS",
+      "textPosition": "center",
+      "subhead": "<p>Nosso gráfico de rodas abaixo simplifica nossa linha por modelo, preço e tipo de passeio. As sugestões aqui são para usos otimizados para cada modelo. Por exemplo, o 303 Firecrest está pronto para tudo, mas é otimizado para gravel, CX e resistência na estrada. Este é o seu ponto de partida… </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-finder-flex01": {
+    "children": ["image#campanha-wheel-finder-banner"]
+  },
+  "image#campanha-wheel-finder-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "RODAS POR ESTILO DE PASSEIO",
+      "textPosition": "center",
+      "subhead": "<p>Descubra como a Zipp pode torná-lo mais rápido, independentemente do tipo de pilotagem que você pratica.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "GRAVEL",
+      "textPosition": "center",
+      "subhead": "<p>Com a marcha certa, a velocidade não termina quando o asfalto termina. A Zipp sabe que seu compromisso em ultrapassar limites se expande para os lugares que você pedala e os eventos que você participa. A descida gritante de hoje pode ser em uma estrada na montanha, a seleção crucial do grupo em uma pista de cascalho. Zipp conquista todas as circunstâncias, em que eficiência é igual a velocidade. </p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/estrada/gravel",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard01": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard01-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard01-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard01-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard01-01": {
+    "children": ["info-card#campanha-wheel-finder-user01-01"]
+  },
+  "info-card#campanha-wheel-finder-user01-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 303S",
+      "subhead": "**Estilo de passeio:** Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas irregulares e pavimentadas, cascalho, montanhosa, ventosa\n**Peso:** 1530g\n**Profundidade do Aro:** 45mm\n**Largura Interna:** 23mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/estrada/303%20s?_c=estrada&map=c,ft"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard01-02": {
+    "children": ["info-card#campanha-wheel-finder-user01-02"]
+  },
+  "info-card#campanha-wheel-finder-user01-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 303 FIRECREST ",
+      "subhead": "Estilo de passeio: Road Endurance, Cyclocross, Gravel\n**Estabilidade:**Alta\n**Aero:**Médio\n**Bom para:**Estradas irregulares e pavimentadas, cascalho, montanhosa, ventosa\n**Peso:**1352g\n**Profundidade do Aro:**40mm\n**Largura Interna:**25mm ",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard01-03": {
+    "children": ["info-card#campanha-wheel-finder-user01-03"]
+  },
+  "info-card#campanha-wheel-finder-user01-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 353 NSW",
+      "subhead": "Estilo de passeio: Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas irregulares e pavimentadas, cascalho, montanhosa, ventosa\n**Peso:** 1255g\n**Profundidade do aro:** 45mm ondulado\n**Largura Interna:** 25mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "CICLOCROSS",
+      "textPosition": "center",
+      "subhead": "<p>O sucesso se resume a ganhar controle sobre o caos, volta após volta. No ciclocross, a corrida é tão difícil quanto a atmosfera é divertida. Você está enfrentando lama, sulcos, barreiras, rivais… e seus limites. Em uma Copa do Mundo belga ou série CX local, a seção da roda é crucial para avançar. O compromisso da Zipp com o Cross significa que você terá as ferramentas necessárias para o sucesso.</p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-reverse", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard02": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard02-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard02-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard02-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard02-01": {
+    "children": ["info-card#campanha-wheel-finder-user02-01"]
+  },
+  "info-card#campanha-wheel-finder-user02-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 202 FIRECREST",
+      "subhead": "**Estilo de passeio:** Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Baixo\n**Bom para:** Montanhas, montanhosas\n**Peso:** 1558g\n**Profundidade do Aro:** 32mm\n**Largura interna:** 21mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard02-02": {
+    "children": ["info-card#campanha-wheel-finder-user02-02"]
+  },
+  "info-card#campanha-wheel-finder-user02-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 303 S",
+      "subhead": "**Estilo de passeio:** Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas irregulares e pavimentadas, cascalho, montanhosas, ventosas\n**Peso:** 1530g\n**Profundidade do Aro:** 45mm\n**Largura Interna:** 23mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard02-03": {
+    "children": ["info-card#campanha-wheel-finder-user02-03"]
+  },
+  "info-card#campanha-wheel-finder-user02-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 303 FIRECREST",
+      "subhead": "**Estilo de passeio:** Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas irregulares e pavimentadas, cascalho, montanhosa, ventosa\n**Peso:** 1352g\n**Profundidade do Aro:** 40mm\n**Largura interna:** 25mm ",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "ROAD ENDURANCE",
+      "textPosition": "center",
+      "subhead": "<p>As bicicletas de estrada modernas estão mudando para melhor. Elas ainda são rápidas, mas agora são projetados para se encaixar em mais estilos de pilotagem e também para enfrentar aventuras fora do asfalto. A linha da Zipp ajuda você a aproveitar ao máximo esta nova era ou andar na estrada com opções prontas para tubeless e aros largos para maior resistência no rolamento e manuseio, juntamente com a renomada eficiência aerodinâmica da Zipp.</p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-reverse", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard03": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard03-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard03-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard03-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard03-01": {
+    "children": ["info-card#campanha-wheel-finder-user03-01"]
+  },
+  "info-card#campanha-wheel-finder-user03-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 202 FIRECREST",
+      "subhead": "**Estilo de passeio: Road Endurance, Cyclocross, Gravel**\n**Estabilidade: Alta**\n**Aero: Baixo**\n**Bom para: Montanhas, montanhosas**\n**Peso: 1558g**\n**Profundidade do Aro: 32mm**\n**Largura interna:** 21mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard03-02": {
+    "children": ["info-card#campanha-wheel-finder-user03-02"]
+  },
+  "info-card#campanha-wheel-finder-user03-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 202 NSW",
+      "subhead": "**Estilo de passeio:** Road Endurance, Road Race\n**Estabilidade:** Alta\n**Aero:** baixo\n**Bom para:** Montanhas, montanhosas\n**Peso:** 1506g\n**Profundidade do Aro:** 32mm\n**Largura Interna:** 21mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard03-03": {
+    "children": ["info-card#campanha-wheel-finder-user03-03"]
+  },
+  "info-card#campanha-wheel-finder-user03-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 303 S",
+      "subhead": "**Estilo de passeio:** Road Endurance, Cyclocross, Gravel\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas irregulares e pavimentadas, cascalho, montanhosas, ventosas\n**Peso:** 1530g\n**Profundidade do Aro:** 45mm\n**Largura Interna:** 23mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "ROAD RACE",
+      "textPosition": "center",
+      "subhead": "<p>Andar na estrada e correr estão no centro da nossa missão de torná-lo mais rápido. Somos dedicados àqueles que fixam um número e ultrapassam seus limites em critérios, corridas de rua ou gran fondos. Ou talvez sua saída seja o passeio em grupo de sábado de manhã. A Zipp oferece a melhor tecnologia e desempenho da categoria em todas as profundidades de aro.</p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-big", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard04": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard04-01": {
+    "children": ["info-card#campanha-wheel-finder-user04-01"]
+  },
+  "info-card#campanha-wheel-finder-user04-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 404 FIRECREST TUBELESS COM TSE ",
+      "subhead": "**Estilo de passeio:** corrida de estrada, triatlo\n**Estabilidade:** Média\n**Aero:** Médio\n**Bom para:** Estradas pavimentadas, Rolantes\n**Peso:** 1450g\n**Profundidade do Aro:** 58mm\n**Largura Interna:** 23mm ",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard04-02": {
+    "children": ["info-card#campanha-wheel-finder-user04-02"]
+  },
+  "info-card#campanha-wheel-finder-user04-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 404 NSW",
+      "subhead": "**Estilo de passeio:** corrida de estrada, triatlo\n**Estabilidade:** Média\n**Aero:** Médio\n**Bom para:** Estradas pavimentadas, Rolantes\n**Peso:** 1690g\n**Profundidade do Aro:** 58mm\n**Largura interna:** 20mm ",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard04-03": {
+    "children": ["info-card#campanha-wheel-finder-user04-03"]
+  },
+  "info-card#campanha-wheel-finder-user04-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 454 NSW TUBELESS COM TSE",
+      "subhead": "**Estilo de passeio:** corrida de estrada, triatlo\n**Estabilidade:** Alta\n**Aero:** Médio\n**Bom para:** Estradas pavimentadas, Rolantes, Ventoso\n**Peso:** 1358g\n**Profundidade do Aro:** 53/58mm\n**Largura Interna:** 23mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+    "info-card#campanha-wheel-finder-card07": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "TRIATLO",
+      "textPosition": "center",
+      "subhead": "<p>Desde o nosso primeiro produto em 1988, a Zipp está enraizada no desafio extremo da nadatação-bicicleta-corrida. Entendemos que o triatlo não é apenas um esporte, mas um estilo de vida para muitos, e desenvolvemos rodas dignas desse nível de dedicação e paixão. As ofertas de triatlo da Zipp apresentam nossos aros mais profundos e discos completos… Tudo é aerodinâmico.</p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-reverse", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard05": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard04-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard05-01": {
+    "children": ["info-card#campanha-wheel-finder-user05-01"]
+  },
+  "info-card#campanha-wheel-finder-user05-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 808 FIRECREST",
+      "subhead": "**Estilo de passeio:** Triatlhon, Pista\n**Estabilidade:** Baixa\n**Aero:** alto\n**Bom para:** Estradas pavimentadas\n**Peso:** 1917g\n**Profundidade do Aro:** 82mm\n**Largura Interna:** 19mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard05-02": {
+    "children": ["info-card#campanha-wheel-finder-user05-02"]
+  },
+  "info-card#campanha-wheel-finder-user05-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 858 NSW",
+      "subhead": "**Estilo de passeio:** Triatlhon\n**Estabilidade:** Alta\n**Aero:** alto\n**Bom para:** Estradas pavimentadas, Vento\n**Peso:** 1917g\n**Profundidade do Aro:** 77/82mm\n**Largura interna:** 18mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard05-03": {
+    "children": ["info-card#campanha-wheel-finder-user05-03"]
+  },
+  "info-card#campanha-wheel-finder-user05-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## SUPER 9-DISC",
+      "subhead": "**Estilo de passeio:** Triatlhon, Pista\n**Estabilidade:** Baixa\n**Aero:** alto\n**Bom para:** Estradas pavimentadas\n**Profundidade do Aro:** N/A\n**Largura interna:** 18mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+      "info-card#campanha-wheel-finder-card08": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "TRACK",
+      "textPosition": "center",
+      "subhead": "<p>As corridas de pista têm tudo a ver com a simplicidade da velocidade. Os discos e rodas de esteira Zipp empregam tecnologia de ponta para rigidez superior e eficiência aerodinâmica no velódromo.</p>",
+      "callToActionText": "Ver tudo",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-big", "big-title", "info-card-flextop"]
+    }
+  },
+
+  "flex-layout.row#campanha-wheel-horizontalcard06": {
+    "children": [
+      "flex-layout.col#campanha-wheel-finder-horizontalcard06-01",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard06-02",
+      "flex-layout.col#campanha-wheel-finder-horizontalcard06-03"
+    ],
+    "props": {"blockClass": "campanha-wheel-finder-row"}
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard06-01": {
+    "children": ["info-card#campanha-wheel-finder-user06-01"]
+  },
+  "info-card#campanha-wheel-finder-user06-01": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 808 FIRECREST",
+      "subhead": "**Estilo de passeio:** Triatlhon, Pista\n**Estabilidade:** Baixa\n**Aero:** alto\n**Bom para:** Estradas pavimentadas\n**Peso:** 1917g\n**Profundidade do Aro:** 82mm\n**Largura Interna:** 19mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard06-02": {
+    "children": ["info-card#campanha-wheel-finder-user06-02"]
+  },
+  "info-card#campanha-wheel-finder-user06-02": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## 858 NSW",
+      "subhead": "**Estilo de passeio:** Triatlhon\n**Estabilidade:** Alta\n**Aero:** alto\n**Bom para:** Estradas pavimentadas, Vento\n**Peso:** 1917g\n**Profundidade do Aro:** 77/82mm\n**Largura interna:** 18mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "flex-layout.col#campanha-wheel-finder-horizontalcard06-03": {
+    "children": ["info-card#campanha-wheel-finder-user06-03"]
+  },
+  "info-card#campanha-wheel-finder-user06-03": {
+    "props": {
+      "textMode": "rich-text",
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "## SUPER 9-DISC",
+      "subhead": "**Estilo de passeio:** Triatlhon, Pista\n**Estabilidade:** Baixa\n**Aero:** alto\n**Bom para:** Estradas pavimentadas\n**Profundidade do Aro:** N/A\n**Largura interna:** 18mm",
+      "textAlignment": "left",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "callToActionText": "Compre",
+      "callToActionUrl": "/link"
+    }
+  },
+
+  "info-card#campanha-wheel-finder-card09": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "AINDA INDECISO? ",
+      "textPosition": "center",
+      "subhead": "<p>Ajudamos você a descobrir as opções de rodas certas para você alcançar seu próximo PR de ciclismo!</p>",
+      "callToActionText": "Comece aqui",
+      "callToActionUrl": "/link",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-reverse", "big-title", "info-card-flextop"]
+    }
+  }
+}

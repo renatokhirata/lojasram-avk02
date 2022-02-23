@@ -1,0 +1,9 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.stackContainer--prodsum .stackItem:last-child {
+  top: unset;
+  left: 50%;
+  right: unset;
+  width: 100%;
+  bottom: 13px;
+  transform: translateX(-50%); }

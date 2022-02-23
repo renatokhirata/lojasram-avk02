@@ -1,0 +1,35 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "info-card#faq-banner-1",
+            "rich-text#faq-content-1",
+            "rich-text#faq-content-2"
+        ]
+    },
+    "info-card#faq-banner-1": {
+        "props": {
+            "id": "info-card-faq-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/garantia-banner-1.jpg",
+            "headline": "COISAS DA VIDA",
+            "subhead": "Garantia Zipp e Além",
+            "callToActionText": "História da SRAM",
+            "callToActionUrl": "",
+            "blockClass": "faq-banner-primary",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#faq-content-1": {
+        "props": {
+            "text": "***Para produtos que não foram danificados durante o uso pretendido - como danos sofridos durante o transporte, acidentes e uso indevido - a Zipp oferece o programa “Life Happens”. Este programa se aplica apenas a rodas do ano modelo 2021 e posteriores com preço definido com 50% de desconto no preço de varejo local. Os ciclistas podem entrar em contato com o revendedor autorizado local para obter opções de reparo e substituição.*** \n\n ## VISÃO GERAL DA GARANTIA ZIPP \n\n Quando você comprar novas rodas e componentes Zipp, você agora estará coberto por uma garantia vitalícia para vendas em todo o mundo. Isso inclui defeitos de fabricação, é claro, mas também por danos causados ​​no uso pretendido durante o pedal. \n\n A garantia é para rodas, guidões, mesas e canotes de selim Zipp ano/modelo 2021. Aplica-se apenas ao proprietário original e não é transferível. Os componentes ano/modelo 2021 e posteriores podem ser identificados pelo novo logotipo Zipp. A garantia vitalícia é para produtos não eletrônicos, portanto, com o Vuka Shift AXS 90, a garantia cobre as extensões de carbono, mas não a parte eletrônica, que possui garantia limitada de dois anos. \n\n “O objetivo aqui é garantir que, como um cliente novo ou antigo, você tenha mais paz de espírito com quaisquer incidentes que possam acontecer enquanto você anda de bicicleta”, disse o Diretor de Serviço do Revendedor da SRAM, Mark Van Gemert. “Qualquer incidente de condução é coberto pela política de garantia dos produtos 2021.” \n\n Especificamente para o Gravel, a garantia vitalícia se aplica aos modelos de rodas 202 e 303. \n\n Um revendedor autorizado deve processar as solicitações de garantia. Leve o seu produto Zipp e o comprovante de compra original (Nota Fiscal) ao revendedor onde foi comprado para iniciar o processo. Para agilizar as interações de serviço, recomendamos registrar suas rodas em [www.zipp.com/reg](www.zipp.com/reg). O registro, entretanto, não é necessário para usar a política de garantia. \n\n **Importante:** o comprovante de compra (Nota Fiscal) é necessário com ou sem registro do produto. \n\n ### O QUE ESTÁ COBERTO: \n - Todas as rodas, guidões, mesas e canotes de selim não eletrônicos do ano/modelo 2021 \n - Todas as rodas Zipp 3ZERO MOTO \n\n\n ### COMO FUNCIONA: \n - Compre em um revendedor autorizado Zipp ou em [www.zipp.com.br](www.zipp.com.br). \n - Guarde seu comprovante de compra (ISSO É NECESSÁRIO) \n - Registre suas rodas Zipp - não é necessário para a garantia, mas pode agilizar o processo. \n - Se você tiver um problema, leve o produto Zipp coberto ao local de compra.",
+            "blockClass": "faq-content-1"
+        }
+    },
+    "rich-text#faq-content-2": {
+        "props": {
+            "text": "### Baixe a política de garantia \n\n [Abrir PDF](https://www.sram.com/globalassets/document-hierarchy/sram-warranty/sram-warranty.pdf#page=7?target=_blank)",
+            "blockClass": "faq-content-2"
+        }
+    }
+}

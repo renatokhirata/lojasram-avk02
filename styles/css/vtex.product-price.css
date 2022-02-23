@@ -1,0 +1,38 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.savings {
+  top: 0;
+  color: #fff;
+  left: 50%;
+  padding: 5px 12px;
+  z-index: 2;
+  position: absolute;
+  font-size: .85rem;
+  transform: translateX(-50%);
+  background-color: #e51937; }
+
+.sellingPriceValue {
+  color: #454545;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.installments {
+  color: #454545;
+  font-size: 0;
+  text-transform: uppercase; }
+  .installments::before {
+    content: "ou";
+    font-size: 14px;
+    margin-right: 3px; }
+  .installments .installmentsNumber,
+  .installments .installmentValue {
+    font-size: 14px; }
+  .installments .installmentsNumber {
+    margin-right: 3px; }
+    .installments .installmentsNumber::after {
+      content: "x de"; }
+
+.listPrice .listPriceValue .currencyContainer {
+  color: #000;
+  font-size: .9rem;
+  font-weight: bold; }

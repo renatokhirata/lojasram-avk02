@@ -1,0 +1,71 @@
+.boletoShelf {
+    color: #000;
+    font-size: 16px;
+    margin-left: 4px;
+    font-weight: 400;
+}
+.priceContainerShelf {
+    padding: 0 10px 0;
+    font-size: 16px;
+}
+.priceContainerShelf .price {
+    font-weight: 700;
+}
+.priceContainerShelf div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.priceContainerShelf div span {
+    display: block;
+}
+@media (max-width: 767px) {
+    .priceContainerShelf {
+        font-size: 14px;
+    }
+    .priceContainerShelf .price {
+        font-weight: 700;
+    }
+    .priceContainerShelf .boletoShelf {
+        font-size: 12px;
+    }
+}
+.priceContainerShelf2 {
+    padding: 0 10px 0;
+    font-size: 14px;
+}
+.boletoShelf2 {
+    display: block;
+    text-align: center;
+}
+.boletoShelf2 .price {
+    display: inline;
+    margin-right: 2px;
+}
+@media (max-width: 767px) {
+    .priceContainerShelf2 {
+        font-size: 12px;
+    }
+}
+.price {
+    color: #e51937;
+    font-weight: bold;
+}
+.boleto {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.priceContainer {
+    border-left: 1px solid #dedede;
+    padding-left: 80px;
+}
+
+@media (max-width: 767px) {
+    .priceContainer {
+        border-left: 0;
+        padding-left: 30px;
+    }
+}

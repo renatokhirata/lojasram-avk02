@@ -1,0 +1,154 @@
+{
+  "store.custom#colecoes": {
+    "blocks": [
+      "flex-layout.row#colecoes-flex01",
+      "info-card#colecoes-content",
+      "video#colecoes-video",
+      "info-card#colecoes-card02",
+      "info-card#colecoes-card03",
+      "info-card#colecoes-card04",
+      "flex-layout.row#colecoes-horizontalcard"
+    ]
+  },
+
+  "flex-layout.row#colecoes-flex01": {
+    "props": {
+      "id": "comparar",
+      "blockClass": "tablebf"
+    },
+    "children": [
+      "image#colecoes-banner"
+    ]
+  },
+
+  "image#colecoes-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#colecoes-content": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Desenvolvimento Avançado",
+      "subhead": "A única missão da Zipp é tornar os ciclistas mais rápidos, e o NSW é essencial para essa missão. Dentro da série NSW, a Zipp cria produtos de alto nível com nossas tecnologias mais avançadas. Dentro de nosso laboratório de desenvolvimento avançado, apelidado de “The Nest”, novas formas de pensar nos conduzem a criar protótipos de produtos que são refinados, feitos à mão e testados em todo o restante de nossa fábrica em Indianápolis. Saiba mais sobre a filosofia NSW e os conjuntos de rodas abaixo.",
+      "callToActionText": "COMPRAR NSW",
+      "callToActionUrl": "/nsw?_q=nsw&map=ft",
+      "blockClass": "info-card-colecoes",
+      "textAlignment": "left"
+    }
+  },
+
+  "video#colecoes-video": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=9I3pnXWpDvI",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "info-card#colecoes-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+
+      "headline": "353 NSW CARBONO FREIO A DISCO",
+      "subhead": "A velocidade e a confiança para enfrentar todas os percursos.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "VEJA MAIS",
+      "callToActionUrl": "/roda-zipp-353-nsw-carbon-a1-700c-freio-a-disco-center-locking-24-raios-12-100-dianteira/p",
+      "blockClass": "info-card-colecoes-big",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "454 NSW CARBONO FREIO A DISCO",
+      "subhead": "Modulação superior e poder de parada combinados com o máximo de equilíbrio aéreo da Zipp.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "VEJA MAIS",
+      "callToActionUrl": "/roda-zipp-454-nsw-carbon-b1-700c-freio-a-disco-center-locking-24-raios-12x100-dianteira/p",
+      "blockClass": "info-card-colecoes-reverse",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "858 NSW CARBONO FREIO A DISCO",
+      "subhead": "Velocidade e controle em outro nível para bicicletas de corrida em outro nível.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "VEJA MAIS",
+      "callToActionUrl": "/roda-zipp-858-nsw-carbon-b1-700c-freio-a-disco-center-locking-24-raios-12x100-dianteira/p",
+      "blockClass": "info-card-colecoes-big",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#colecoes-horizontalcard": {
+    "children": [
+      "flex-layout.col#colecoes-horizontalcard01",
+      "flex-layout.col#colecoes-horizontalcard02"
+    ],
+    "props": {
+      "blockClass": "colecoes-row"
+    }
+  },
+
+  "flex-layout.col#colecoes-horizontalcard01": {
+    "children": [
+      "info-card#colecoes-user01"
+    ]
+  },
+
+  "info-card#colecoes-user01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "JAN FRODENO - 3X CAMPEÃO DO MUNDO IROMAN KONA",
+      "subhead": "Eu confio na Zipp para me fornecer as rodas mais rápidas e estáveis possíveis. O Zipp 858 NSW é o conjunto de rodas mais avançado que eu já utilizei para correr, e tem sido um ativo definitivo nas minhas maiores vitórias, especialmente em Kona, onde você precisa de velocidade mas também estabilidade do vento cruzado.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+
+  "flex-layout.col#colecoes-horizontalcard02": {
+    "children": [
+      "info-card#colecoes-user02"
+    ]
+  },
+
+  "info-card#colecoes-user02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "ALEJANDRO VALVERDE TIME MOVISTAR",
+      "subhead": "Eu sabia sobre as rodas Zipp há muito tempo, devido a sua reputação por ser as melhores. Sempre que eu tive a chance de testar bicicletas dos meus amigos, eu sempre gostei delas. Agora que a Zipp é a nossa patrocinadora, eu acho que as rodas Zipp, especialmente as rodas NSW, são muito rígidas e aerodinâmicas.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes-users",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  }
+
+}

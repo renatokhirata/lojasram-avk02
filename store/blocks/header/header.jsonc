@@ -1,0 +1,180 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "modal-lgpd",
+      "flex-layout.row#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "link#institucional",
+      "login"
+    ]
+  },
+  "link#institucional": {
+    "props": {
+      "label": "",
+      "href": "https://proparts.esp.br",
+      "blockClass": "institucional"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "colSizing": "equal",
+      "fullWidth": true,
+      "blockClass": "main-header",
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#right-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#right-desktop": {
+    "props": {
+      "width": "40%",
+      "blockClass": "topbread"
+    },
+    "children": ["custom-search-bar", "vtex.menu@2.x:menu#utils", "minicart.v2"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "width": "40%",
+      "verticalAlign": "left"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://lojasram.vtexassets.com/arquivos/zipp-logo.jpg",
+      "width": "100"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "modal-lgpd",
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "flex-layout.col#1-mobile",
+      "flex-layout.col#2-mobile",
+      "flex-layout.col#3-mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colSizing": "equal"
+    }
+  },
+  "flex-layout.col#1-mobile": {
+    "props": {
+      "width": "35%"
+    },
+    "children": [
+      "drawer#menu-mobile"
+    ]
+  },
+  "flex-layout.col#2-mobile": {
+    "props": {
+      "width": "grow",
+      "blockClass": "col-2-mobile"
+    },
+    "children": [
+      "logo#mobile"
+    ]
+  },
+  "flex-layout.col#3-mobile": {
+    "props": {
+      "width": "35%",
+      "blockClass": "col-3-mobile"
+    },
+    "children": [
+      "custom-search-bar",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "drawer#menu-mobile": {
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu-mobile"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#mtb",
+      "menu-item#estrada",
+      "menu-item#acessorios"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://lojasram.vtexassets.com/arquivos/zipp-logo.jpg",
+      "width": "70"
+    }
+  }
+}

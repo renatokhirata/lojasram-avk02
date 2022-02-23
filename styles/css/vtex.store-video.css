@@ -1,0 +1,14 @@
+.videoContainer--sobre-banner-1 {
+    margin: 30px;
+    margin-top: 60px;
+}
+.videoContainer--sobre-banner-1 .videoElement {
+    height: 80vh;
+}
+.videoContainer--video-center {
+    max-width: 900px;
+    margin: auto;
+}
+.videoContainer--margin-bottom {
+    margin-bottom: 60px;
+}

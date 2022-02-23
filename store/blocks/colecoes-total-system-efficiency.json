@@ -1,0 +1,297 @@
+{
+  "store.custom#colecoes-total-system-efficiency": {
+    "blocks": [
+      "flex-layout.row#colecoes-total-system-efficiency-flex00",
+      "info-card#colecoes-total-system-efficiency-card01",
+      "flex-layout.row#colecoes-total-system-efficiency-flex01",
+      "info-card#colecoes-total-system-efficiency-card02",
+      "flex-layout.row#colecoes-total-system-efficiency-flex02",
+      "info-card#colecoes-total-system-efficiency-card03",
+      "flex-layout.row#colecoes-total-system-efficiency-flex03",
+      "info-card#colecoes-total-system-efficiency-card04",
+      "flex-layout.row#colecoes-total-system-efficiency-flex04",
+      "info-card#colecoes-total-system-efficiency-card05",
+      "flex-layout.row#colecoes-total-system-efficiency-flex05",
+      "info-card#colecoes-total-system-efficiency-card06",
+      "video#colecoes-total-system-efficiency-video01",
+      "info-card#colecoes-total-system-efficiency-card07",
+      "video#colecoes-total-system-efficiency-video02",
+      "info-card#colecoes-total-system-efficiency-card08",
+      "video#colecoes-total-system-efficiency-video03",
+      "info-card#colecoes-total-system-efficiency-card09",
+      "info-card#colecoes-total-system-efficiency-card10",
+      "info-card#colecoes-total-system-efficiency-card11",
+      "info-card#colecoes-total-system-efficiency-card12",
+      "video#colecoes-total-system-efficiency-video04",
+      "info-card#colecoes-total-system-efficiency-card13",
+      "video#colecoes-total-system-efficiency-video05"
+    ]
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex00": {
+    "children": ["image#colecoes-total-system-efficiency-banner"]
+  },
+  "image#colecoes-total-system-efficiency-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex01": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#colecoes-total-system-efficiency-banner01"]
+  },
+  "image#colecoes-total-system-efficiency-banner01": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex02": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#colecoes-total-system-efficiency-banner02"]
+  },
+  "image#colecoes-total-system-efficiency-banner02": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex03": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#colecoes-total-system-efficiency-banner03"]
+  },
+  "image#colecoes-total-system-efficiency-banner03": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex04": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#colecoes-total-system-efficiency-banner04"]
+  },
+  "image#colecoes-total-system-efficiency-banner04": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#colecoes-total-system-efficiency-flex05": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#colecoes-total-system-efficiency-banner05"]
+  },
+  "image#colecoes-total-system-efficiency-banner05": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "video#colecoes-total-system-efficiency-video01": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=-mw4fmOJ5GE",
+      "blockClass": "video-center"
+    }
+  },
+
+  "video#colecoes-total-system-efficiency-video02": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=QCz7eYFhHbQ",
+      "blockClass": "video-center"
+    }
+  },
+
+  "video#colecoes-total-system-efficiency-video03": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=ICiUCmYWKNA",
+      "blockClass": "video-center"
+    }
+  },
+
+  "video#colecoes-total-system-efficiency-video04": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=4rcNU124NVA",
+      "blockClass": "video-center"
+    }
+  },
+
+  "video#colecoes-total-system-efficiency-video05": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=L5q6207_IOI",
+      "blockClass": ["video-center", "margin-bottom"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>O design e desenvolvimento da roda Total System Efficiency (TSE) da Zipp  é baseado em uma premissa simples: eficiência é igual a velocidade. A combinação de um novo aro laminado com um perfil de aro maior e otimizado para a interface do pneu, transformando sua experiência de pilotagem para superar as quatro barreiras da velocidade: resistência ao vento, peso, resistência a rolagem, perdas por vibração.</p><p>Quão eficaz é a TSE? Testes ao ar livre encomendados pela Zipp revelaram os ganhos reais da eficiência total do sistema Zipp (TSE) a 40 km/h. O 454 NSW com TSE™ observou uma economia de 10 watts para manter essa velocidade em comparação com o modelo anterior. O 404 Firecrest TSE mostrou uma economia de 4 watts.</p><p>A abordagem TSE é um ataque equilibrado contra as quatro barreiras à velocidade:</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>Esses quatro inimigos da velocidade estão presentes, em graus variados, em todas as disciplinas do ciclismo de estrada. As rodas projetadas com TSE são otimizadas para torná-lo mais rápido, independentemente da superfície ou disciplina da estrada (use o código de cores acima para ver as barreiras à velocidade em disciplinas específicas de ciclismo):</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"RESISTÊNCIA AO VENTO",
+      "subhead": "<p>Nossa solução: Superar a resistência ao vento por meio de ganhos em eficiência aerodinâmica e estabilidade de vento cruzado é o ponto forte de longa data da Zipp com nossos formatos do aro Firecrest e Sawtooth NSW que mudaram a indústria do ciclismo. Nas bicicletas de estrada modernas, os freios a disco melhoram o poder de frenagem, mas também ajudam a aumentar a velocidade. A ausência de pinças de freio no aro permitiu a criação de aros mais largos proporcionando uma interface mais suave entre pneu e aro, e consequentemente melhor desempenho aerodinâmico, ideal para se utilizar com pneus maiores que proporcionam ganhos consideráveis.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+  
+  "info-card#colecoes-total-system-efficiency-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"GRAVIDADE (PESO)",
+      "subhead": "<p>Nossa Solução: As rodas Zipp com TSE são notavelmente mais leves, cerca de meio quilo mais leves no caso do 454 NSW. Com avançado em nossa fabricação de carbono, a Zipp projeta rodas com enorme economia de peso. O 454 NSW Tubeless Freios a disco é cerca de 450 gramas mais leve que seu antecessor! Normalmente, a redução de peso vem com o preço da durabilidade. No entanto, o design, o laminado do aro e o processo de fabricação usados nas rodas projetadas pela TSE (Total System Efficiency) proporcionam durabilidade robusta com um peso menor. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"RESISTÊNCIA A ROLAGEM",
+      "subhead": "<p>Nossa Solução: Talvez você se lembre disso da aula de física: pressão = força distribuída em uma área. No ciclismo, a área de contato com o pneu com o solo é determinada pelo peso do ciclista e pela pressão dos pneus. Se você pegar duas bicicletas diferentes com dois pneus de larguras diferentes, mas a mesma pressão dos pneus em ambas as bicicletas, a área de contato dos pneus diferentes será igual porque ambos os pneus estão suportando a mesma carga com a mesma pressão. A única diferença nesses dois cenários é a FORMA da área de contato. Um pneu mais largo produzirá uma área de contato mais larga e mais curta em comparação com um pneu estreito.</p><p>Existem duas maneiras de fazer um pneu mais largo – um pneu maior ou um aro com uma medida interna mais larga. Aro mais largo + pneu mais largo = área de contato do pneu mais larga e mais curta. Isso promove menos esvaziamento do pneu, o que deforma menos o pneu, resultando em menos energia perdida no pneu em movimento. Melhorar a resistência a rolagem e tem a mesma magnitude de impacto na eficiência geral que escolher o formato correto do aro.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"PERDAS POR VIBRAÇÃO",
+      "subhead": "<p>Nossa Solução: Usando um novo aro laminado, projetamos rodas Zipp para serem versáteis: elas podem ser usadas em estradas tradicionais, mas também são capazes de enfrentar terrenos mais difíceis, incluindo estradas irregulares, cascalho leve e, é claro, os paralelepípedos das provas clássicas da primavera. Projetamos rodas com pneus mais largos para rodar com pressões mais baixas e suavizar o passeio.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card07": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"LIÇÕES DO ZIPP'S ROLLINGROAD™",
+      "subhead": "<p>Ao desenvolver o TSE (Total System Effiency), os engenheiros da Zipp configuraram um “Rolling Road™” para duplicar as condições de superfície que os ciclistas encontram no mundo real em nosso laboratório de testes. O Rolling Road™ nos permite capturar dados para analisar a eficiência de diferentes configurações de bicicletas em várias superfícies. </p><p>Pilotando com baixa pressão, nosso piloto (à direita) está calmo e focado. Pilotando com alta pressão, nosso piloto (esquerda) está visivelmente desconfortável e trabalhando para manter o controle da bicicleta. A vibração de corpo inteiro vista aqui decorre da quantidade que os pneus podem absorver os solavancos. Mais pressão leva a mais deslocamento vertical. A baixa pressão alivia significativamente as imperfeições da estrada.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card08": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"SUAVIZANDO O PASSEIO",
+      "subhead": "<p>O deslocamento vertical rouba energia do sistema e vai direto para o corpo do ciclista. Olhe para os braços nessas duas configurações diferentes: Esse músculo se movendo para frente e para trás está absorvendo energia do sistema. O corpo humano está agindo como um grande sistema amortecedor. Quanto menos você vibrar como um amortecedor, menos energia você perde para a vibração.</p><p>Sua próxima pergunta deve ser: “E daí?” De quanta perda de energia estamos falando? 1 watt? 3 watts?</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card09": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"PSI vs POTÊNCIA",
+      "subhead": "<p>Os dados de nossos testes Rolling Road™ mostram que a diferença entre pressão ultrabaixa e alta pressão pode ser responsável por 50 watts em ganhos de eficiência em uma estrada acidentada. Os testes mediram a potência necessária para percorrer a 32 km/h (20 mph) em várias superfícies. Capturamos a energia perdida pela deformação dos pneus, transmissão e vibração do corpo inteiro.</p><p>A ordem de magnitude desse tipo de perda merece sua atenção. À medida que a rugosidade da superfície aumenta, você deseja usar pneus maiores com pressões mais baixas. Defendemos o uso de uma configuração sem câmara para capturar todos os benefícios. Rasgos são muito menos prováveis em baixa pressão ao executar sem câmara. Os benefícios adicionais de um pneu mais largo em pressões mais baixas são melhor manuseio e curvas. Seus pneus não pularão pequenos solavancos e perderão tração nas curvas.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card10": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"RECOMENDAÇÕES DE PASSEIO EM ESTRADA COM PRESSÃO DE PNEUS",
+      "subhead": "<p>As recomendações são um ponto de partida para os motociclistas começarem a ajustar suas configurações ideais de pressão dos pneus para andar na estrada.</p><p>Recomendações do PSI dianteiro/traseiro</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "callToActionText": "Guia de pressão dos pneus Zipp",
+      "callToActionUrl": "https://axs.sram.com/tirepressureguide"
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card11": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"Curte a ciência? Mergulhe profundamente no assunto abaixo ",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "callToActionText": "GUIA TSE",
+      "callToActionUrl": "https://www.sram.com/globalassets/publicsites/cms-campaign-pages-not-story-pages/zipp/totalsystemeffeciency/pdf-downloads/tse-explained2.pdf"
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card12": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"TECNOLOGIA HOOKLESS ZIPP",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#colecoes-total-system-efficiency-card13": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"TESTANDO A TECNOLOGIA TUBELESS COM O TIME MOVISTAR",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  }
+}

@@ -1,0 +1,141 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+@media (max-width: 1025px) {
+  .menuContainerNav--top-menu {
+    padding: 0 20px; } }
+
+@media (max-width: 767px) {
+  .menuContainerNav--top-menu {
+    width: 100%; } }
+
+.menuContainerNav--top-menu .menuContainer {
+  display: flex;
+  justify-content: center; }
+  .menuContainerNav--top-menu .menuContainer .menuItemInnerDiv .styledLinkContainer .styledLink .styledLinkContent {
+    display: flex;
+    align-items: center; }
+    .menuContainerNav--top-menu .menuContainer .menuItemInnerDiv .styledLinkContainer .styledLink .styledLinkContent .accordionIcon {
+      font-weight: 300;
+      line-height: 1; }
+    .menuContainerNav--top-menu .menuContainer .menuItemInnerDiv .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--isClosed {
+      font-size: 22px; }
+    .menuContainerNav--top-menu .menuContainer .menuItemInnerDiv .styledLinkContainer .styledLink .styledLinkContent .accordionIcon--isOpen {
+      font-size: 24px; }
+  .menuContainerNav--top-menu .menuContainer .menuItem {
+    margin-right: 30px; }
+    @media (min-width: 1025px) and (max-width: 1250px) {
+      .menuContainerNav--top-menu .menuContainer .menuItem {
+        margin-right: 10px; } }
+    @media (max-width: 767px) {
+      .menuContainerNav--top-menu .menuContainer .menuItem {
+        margin-right: 0;
+        border-bottom: 1px solid #dedede; }
+        .menuContainerNav--top-menu .menuContainer .menuItem:first-child {
+          border-top: 1px solid #dedede; } }
+    .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContent--menu-header-produtos {
+      display: flex;
+      justify-content: center; }
+    .menuContainerNav--top-menu .menuContainer .menuItem:last-child {
+      margin-right: 0; }
+    .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContainer {
+      margin: 0;
+      padding: 0; }
+      .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContainer .styledLink--highlight .styledLinkContent {
+        font-weight: 900; }
+      .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+        color: #000;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: bold; }
+        @media (max-width: 1025px) {
+          .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px; } }
+        @media (max-width: 767px) {
+          .menuContainerNav--top-menu .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px; } }
+    .menuContainerNav--top-menu .menuContainer .menuItem .submenuAccordion {
+      padding: 0;
+      display: flex;
+      margin-top: 5px;
+      flex-direction: column; }
+      .menuContainerNav--top-menu .menuContainer .menuItem .submenuAccordion .menuItem {
+        border: 0; }
+        .menuContainerNav--top-menu .menuContainer .menuItem .submenuAccordion .menuItem:first-child .styledLinkContainer .styledLink .styledLinkContent {
+          margin-top: 10px; }
+        .menuContainerNav--top-menu .menuContainer .menuItem .submenuAccordion .menuItem .styledLinkContainer .styledLink .styledLinkContent {
+          margin-top: 0;
+          font-weight: 300;
+          margin-bottom: 15px; }
+  .menuContainerNav--top-menu .menuContainer .submenuContainer {
+    position: static; }
+    .menuContainerNav--top-menu .menuContainer .submenuContainer .submenuWrapper {
+      top: 118px;
+      width: 100%;
+      z-index: 3; }
+      .menuContainerNav--top-menu .menuContainer .submenuContainer .submenuWrapper .submenu {
+        padding: 30px; }
+        .menuContainerNav--top-menu .menuContainer .submenuContainer .submenuWrapper .submenu .menuContainerNav .menuContainer .menuItem {
+          border: 0;
+          margin-bottom: 15px; }
+          .menuContainerNav--top-menu .menuContainer .submenuContainer .submenuWrapper .submenu .menuContainerNav .menuContainer .menuItem:last-child {
+            margin-bottom: 15px; }
+
+@media (max-width: 1025px) {
+  .menuContainerNav--product-menu {
+    padding: 0; } }
+
+@media (max-width: 767px) {
+  .menuContainerNav--product-menu {
+    width: 100%; } }
+
+.menuContainerNav--product-menu .menuContainer {
+  display: flex;
+  justify-content: flex-end; }
+  @media (max-width: 767px) {
+    .menuContainerNav--product-menu .menuContainer {
+      margin-top: 15px;
+      justify-content: flex-start; } }
+  .menuContainerNav--product-menu .menuContainer .menuItem {
+    margin-right: 30px; }
+    @media (min-width: 1025px) and (max-width: 1250px) {
+      .menuContainerNav--product-menu .menuContainer .menuItem {
+        margin-right: 10px; } }
+    .menuContainerNav--product-menu .menuContainer .menuItem .styledLinkContent--menu-header-produtos {
+      display: flex;
+      justify-content: flex-end; }
+    .menuContainerNav--product-menu .menuContainer .menuItem:last-child {
+      margin-right: 0; }
+    .menuContainerNav--product-menu .menuContainer .menuItem .styledLinkContainer {
+      margin: 0;
+      padding: 0; }
+      .menuContainerNav--product-menu .menuContainer .menuItem .styledLinkContainer .styledLink--highlight .styledLinkContent {
+        font-weight: 900; }
+      .menuContainerNav--product-menu .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold; }
+        @media (max-width: 767px) {
+          .menuContainerNav--product-menu .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+            font-size: 14px;
+            font-weight: bold; } }
+
+.menuItem--menu-footer-mobile .menuItemInnerDiv {
+  padding: 15px 0; }
+  .menuItem--menu-footer-mobile .menuItemInnerDiv .accordionIcon {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1; }
+  .menuItem--menu-footer-mobile .menuItemInnerDiv .accordionIcon--isClosed {
+    font-size: 22px; }
+  .menuItem--menu-footer-mobile .menuItemInnerDiv .accordionIcon--isOpen {
+    font-size: 24px; }
+
+.menuItem--menu-footer-mobile .submenuAccordion .menuContainerNav .menuContainer .menuItem {
+  padding: 0 0 15px; }
+  .menuItem--menu-footer-mobile .submenuAccordion .menuContainerNav .menuContainer .menuItem .styledLinkContainer {
+    padding: 0; }

@@ -1,0 +1,19 @@
+.flag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    z-index: 1;
+    padding: 10px;
+    font-size: .85rem;
+    text-transform: uppercase;
+    background-color: #e51937;
+    font-weight: bold;
+    font-family: Roboto, serif;
+}
+@media (max-width: 1024px) {
+    .flag {
+        padding: 5px;
+        font-size: 11px;
+    }
+}

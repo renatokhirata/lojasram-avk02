@@ -1,0 +1,83 @@
+{
+  "store.custom#politica-de-acessibilidade": {
+    "blocks": [
+      "flex-layout.row#politica-de-acessibilidade-flex01",
+      "info-card#politica-de-acessibilidade-card01",
+      "info-card#politica-de-acessibilidade-card02",
+      "flex-layout.row#politica-de-acessibilidade-flex02"
+    ]
+  },
+
+  "flex-layout.row#politica-de-acessibilidade-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#politica-de-acessibilidade-banner"]
+  },
+
+  "image#politica-de-acessibilidade-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#politica-de-acessibilidade-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline":"EM GERAL",
+      "subhead": "<p>A SRAM, LLC está empenhada em fornecer um ambiente eletrônico acessível a todos, incluindo pessoas com deficiência. Reconhecemos a importância de fornecer um site que seja acessível a todos os usuários, incluindo pessoas com deficiências, como cegueira e baixa visão, surdez e perda auditiva, deficiências de aprendizado, limitações cognitivas e movimentos limitados.</p><p>Estamos melhorando nossa acessibilidade de conteúdo da web seguindo as WCAG 2.0. Ao mesmo tempo, estamos cobrindo uma ampla gama de recomendações para tornar nosso conteúdo da Web mais acessível a uma gama maior de pessoas com deficiência e também tornaremos o conteúdo da Web mais utilizável para usuários em geral.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-de-acessibilidade-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "NOSSAS DIRETRIZES DE ACESSIBILIDADE DE CONTEÚDO PRIMÁRIO DA WEB ",
+      "subhead": "<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Usar contraste suficiente para facilitar a leitura do conteúdo.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Forneça alternativas de texto para conteúdo não textual.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Forneça legendas e alternativas para conteúdo de áudio e vídeo.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Tornar todas as funcionalidades do teclado acessíveis.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Tornar o conteúdo adaptável; e disponibilizá-lo para tecnologias assistivas.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Dê aos usuários tempo suficiente para ler e usar o conteúdo.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Ajudar os usuários a navegar e encontrar conteúdo.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Tornar o conteúdo compreensível.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Fazer o conteúdo aparecer e operar de maneira previsível.<br><span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Maximizar a compatibilidade com os navegadores atuais e tecnologias da web.<br><br>Se você tiver alguma dúvida sobre a acessibilidade deste site, entre em contato com <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='mailto:acessibilidade@sram.com'>acessibilidade@sram.com</a>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#politica-de-acessibilidade-flex02": {
+    "props": {"blockClass": "link-reel"},
+    "children": ["flex-layout.col#politica-de-acessibilidade-flexcol01"]
+  },
+
+  "flex-layout.col#politica-de-acessibilidade-flexcol01": {
+    "props": {},
+    "children": [
+      "info-card#politica-de-acessibilidade-linkstitle",
+      "info-card#politica-de-acessibilidade-link01"
+    ]
+  },  
+
+  "info-card#politica-de-acessibilidade-linkstitle": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "RECURSOS",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-de-acessibilidade-link01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/global-privacy-policy'>POLÍTICA DE PRIVACIDADE GLOBAL </a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/global-privacy-policy'>TERMOS DE USO DO SITE</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/mobile-privacy-policy-and-terms-of-use'>TERMOS DE USO DO SITE</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/cookie-policy'>POLÍTICA DE COOKIES</a>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  }
+
+}
+

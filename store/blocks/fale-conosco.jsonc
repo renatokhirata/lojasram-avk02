@@ -1,0 +1,29 @@
+{
+    "store.custom#fale-conosco": {
+        "blocks": [
+            "info-card#fale-banner-1",
+            "rich-text#fale-content-1",
+            "contato"
+        ]
+    },
+    "info-card#fale-banner-1": {
+        "props": {
+            "id": "info-card-faq-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/fale-conosco-banner-1.jpg",
+            "headline": "FALE CONOSCO",
+            "subhead": "ESTAMOS PRONTOS PARA ATENDER",
+            "callToActionText": "História da SRAM",
+            "callToActionUrl": "",
+            "blockClass": "faq-banner-primary",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#fale-content-1": {
+        "props": {
+            "text": "# Fale Conosco \n\n Olá, queremos saber um pouco mais de você para lhe atender da melhor forma: \n\n [Eu preciso de Assistência Técnica para um componente da minha bike](https://proparts.esp.br/assistencia-tecnica-consumidor?target=_blank) \n\n [Eu preciso de Assistência Técnica para o meu Zipp](?target=_blank) \n\n [Sou lojista e quero abrir um pedido de Assistência Técnica para o meu cliente](https://proparts.esp.br/assistencia-tecnica-revenda?target=_blank) \n\n [Sou lojista e quero ser uma revenda Proparts](https://proparts.esp.br/quero-ser-uma-revenda?target=_blank) \n\n [Quero falar com um representante da Proparts](https://proparts.esp.br/encontre-um-representante?target=_blank) \n\n Quer falar com a Proparts? \n [+55 (11) 5180-4830](tel:551151804830) \n\n Preencha os dados e entraremos em contato em até 48 horas úteis",
+            "blockClass": "faq-content-1"
+        }
+    }
+}

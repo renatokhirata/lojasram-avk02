@@ -1,0 +1,77 @@
+.productContextMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.productContextRow1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    line-height: 0;
+}
+.productContextRow1ColText {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+}
+.productContextRow1ColImage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media (max-width: 767px) {
+    .productContextRow1 {
+        flex-direction: column;
+    }
+    .productContextRow1ColText {
+        order: 2;
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+        background-color: #f3f3f3;
+    }
+    .productContextRow1ColImage {
+        order: 1;
+        width: 100%;
+    }
+}
+.productContextRow2 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    line-height: 0;
+}
+.productContextRow2ColImage {
+    width: 50%;
+}
+.productContextRow2ColText {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+}
+@media (max-width: 767px) {
+    .productContextRow2 {
+        flex-direction: column;
+    }
+    .productContextRow2ColText {
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+    }
+    .productContextRow2ColImage {
+        width: 100%;
+    }
+    .iframe {
+        height: 200px;
+    }
+}

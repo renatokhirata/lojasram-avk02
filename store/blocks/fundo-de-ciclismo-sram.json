@@ -1,0 +1,47 @@
+{
+  "store.custom#fundo-de-ciclismo-sram": {
+    "blocks": [
+      "flex-layout.row#fundo-de-ciclismo-sram-flex01",
+      "info-card#fundo-de-ciclismo-sram-card01",
+      "info-card#fundo-de-ciclismo-sram-card02"
+    ]
+  },
+
+  "flex-layout.row#fundo-de-ciclismo-sram-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#fundo-de-ciclismo-sram-banner"]
+  },
+
+  "image#fundo-de-ciclismo-sram-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#fundo-de-ciclismo-sram-card01": {
+    "props": {
+      "id": "info-card-content",
+      "textMode":"rich-text",
+      "isFullModeStyle": false,
+      "subhead": "A razão pela qual todos nós ficamos empolgados com a inovação e os componentes é que realmente acreditamos que o ciclismo pode mudar o mundo e melhorar a vida das pessoas. Simplesmente andar de bicicleta é uma solução de mobilidade saudável e ambiental de baixo custo, carregada de aventura e alegria.\n\nO Fundo de Ciclismo é onde a SRAM vai além do produto e da inovação para os lugares onde você pedala.\n\nA SRAM orgulha-se de fazer parceria com cinco dos principais grupos de defesa da Europa e da América do Norte para trabalhar com governos, organizações sem fins lucrativos e empresas dedicadas a ver o ciclismo prosperar.\n\n<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'><a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.imba.com/'>**IMBA EUA**</a></span>\n\nA superpotência do IMBA está fazendo a construção de trilhas acontecer. Confira o <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.imba.com/our-focus'>vídeo Mais trilhas perto de casa</a>. Precisa de algumas ferramentas para desenvolver sua ideia de trilha?\n\n<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'><a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.peopleforbikes.org/'>**Pessoas para bicicletas**</a></span>\n\n<a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.peopleforbikes.org/'>Junte-se ao movimento</a> e fique por dentro do mais recente apoio dado pelos EUA. Descubra como a rede de bicicletas da sua cidade pode ser melhorada por meio da <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.peopleforbikes.org/placesforbikes/bicycle-network-analysis'>Análise da Rede de Bicicletas</a>.\n\n<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'><a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.adfc.de/'>**ADFC (Clube Nacional de Ciclismo Alemão)**</a></span>\n\nADFC inicia campanha prática #MoreSpaceForBike. O objetivo da campanha nacional é: Mais espaço para bicicletas - para boas ciclovias, travessias seguras e muito mais vagas de estacionamento para bicicletas. Mais em <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='http://www.mehrplatzfuersrad.de/'>www.mehrplatzfuersrad.de</a>.\n\n<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'><a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.imba-europe.org/'>**IMBA Europa**</a></span>\n\nConecte-se às <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.imba-europe.org/locations'>22 organizações nacionais de mountain bike</a> que fazem parte da IMBA Europe. Pegue uma pá e <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://www.takecareofyourtrails.com/'>'cuide de suas trilhas'</a>.\n\n<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'><a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://ecf.com/'>**Federação Europeia de Ciclismo**</a></span>\n\nConecte-se a <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://ecf.com/community/our-members'>grupos nacionais de ciclismo</a> em toda a Europa. Ajude-nos a ganhar 6 milhões de euros em <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://ecf.com/what-we-do/european-funding/eu-funds-cycling-campaign'>financiamento da UE</a> para o ciclismo! A SRAM apoia a ECF através da <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='https://cyclingindustries.com/'>Cycling Industries Europe</a>, a voz dos negócios de ciclismo na Europa.\n\n",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#fundo-de-ciclismo-sram-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "FINANCIAMENTO:",
+      "subhead": "<p>A SRAM investe atualmente mais de US$ 1 milhão por ano na América do Norte e Europa, principalmente através dos cinco grupos acima. O foco está em projetos que defendem o investimento público em todos os dias, mountain bike e ciclismo de estrada. O grande dinheiro para trilhas e infraestrutura cicloviária é encontrado no financiamento público. A SRAM lidera a indústria do ciclismo em direção ao aumento do financiamento público por meio das estratégias mais eficazes por meio dos grupos de defesa mais eficazes.</p><p>Se você for um grupo local em busca de financiamento, recomendamos que você se conecte com nossos grupos de parceiros acima. Estamos financiando esforços especiais de nossos grupos parceiros para ajudar grupos locais a arrecadar dinheiro para trilhas, parques de bicicletas e redes de ciclovias protegidas. Se você está trabalhando para que isso aconteça e não está recebendo a ajuda de que precisa para ter sucesso, vamos conversar. Entre em contato com Randy Neufeld, Diretor do SRAM Cycling Fund em <a class='vtex-store-components-3-x-infoCardSubhead--link-vermelho' href='mailto:rneufeld@sram.com'>rneufeld@sram.com.</a></p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  }
+}

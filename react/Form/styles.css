@@ -1,0 +1,190 @@
+form * {
+    font-family: "Roboto", sans-serif;   
+}
+.mySubmitHandler {
+    background-color: white;
+}
+.form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+@media (max-width: 1024px) {
+    .form {
+        padding: 15px;
+    }
+}
+.block1 {
+    width: 100%;
+}
+.inputGroup {
+    width: 100%;
+    min-height: 30px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.inputGroup {
+    border-color: #2E2E2E;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    border: 0;
+    height: 100%;
+    padding: 10px 0;
+    outline: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #dedede;
+}
+.form input:focus,
+.form textarea:focus {
+    border-color: #28196A;
+}
+.form select {
+    width: 100%;
+    border: 0;
+    height: 37px;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 0;
+    border-bottom: 1px solid #dedede;
+    background-color: #fff;
+}
+.form select:focus {
+    border-color: #2E2E2E;
+}
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #3f3f40;
+    font-size: 14px;
+}
+.form textarea {
+    height: 100px;
+}
+.buttonEnv {
+    border: 0;
+    margin: 15px 0 0;
+    padding: 0;
+    width: 150px;
+    cursor: pointer;
+    height: 40px !important;
+    color: #fff;
+    font-size: 14px !important;
+    max-width: 150px;
+    line-height: 20px !important;
+    border-radius: 0;
+    text-transform: uppercase;
+    background-color: #e51937;
+    border: 1px solid #e51937 !important;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+.buttonEnv:hover {
+    color: #e51937;
+    background: #fff;
+}
+.buttonEnv:hover,
+.buttonEnv:focus {
+    outline: 0;
+}
+@media (max-width: 767px) {
+    .form {
+        margin: 0 15px 20px;
+        flex-direction: column;
+    }
+    .block1, .block2 {
+        width: 100%;
+    }
+}
+
+.modalOpen {
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    display: flex;
+    padding: 50px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .modalOpen {
+        width: 90%;
+    }
+}
+.modalOpen p {
+    margin-bottom: 0;
+}
+.modalClose {
+    display: none;
+}
+.modalOpen h3 {
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.modalOpen .select {
+    border: 1px solid #dedede;
+    padding: 10px 0;
+    background-size: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' viewBox='0 0 213.333 213.333' style='enable-background:new 0 0 213.333 213.333;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpolygon points='0,53.333 106.667,160 213.333,53.333 '/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+.modalOpen .select select {
+    width: 100%;
+    border: 0;
+    appearance: none;
+    padding-left: 15px;
+    background-color: transparent;
+}
+
+.modalOverlayOpen {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 999;
+    position: fixed;
+    background-color: rgba(255,255,255,.5);
+}
+.modalOverlayClose {
+    display: none;
+}
+
+.modalButtonClose::before {
+    top: 15px;
+    width: 15px;
+    right: 15px;
+    cursor: pointer;
+    height: 15px;
+    content: "";
+    position: absolute;
+    background-size: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='329pt' viewBox='0 0 329.26933 329' width='329pt'%3E%3Cpath d='m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0'/%3E%3C/svg%3E");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form input,
+form select,
+form textarea {
+    margin: 10px 0;
+}
+
+select * {
+    color: #2E2E2E;
+}

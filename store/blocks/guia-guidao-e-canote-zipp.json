@@ -1,0 +1,179 @@
+{
+  "store.custom#guia-guidao-e-canote-zipp": {
+    "blocks": [
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex00",
+      "info-card#guia-guidao-e-canote-zipp-card01",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex01",
+      "info-card#guia-guidao-e-canote-zipp-card02",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex02",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex03",
+      "info-card#guia-guidao-e-canote-zipp-card03",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex04",
+      "info-card#guia-guidao-e-canote-zipp-card03-cta",
+      "info-card#guia-guidao-e-canote-zipp-card04",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex05",
+      "info-card#guia-guidao-e-canote-zipp-card04-cta",
+      "info-card#guia-guidao-e-canote-zipp-card05",
+      "flex-layout.row#guia-guidao-e-canote-zipp-flex06",
+      "info-card#guia-guidao-e-canote-zipp-card06"
+    ]
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex00": {
+    "children": ["image#guia-guidao-e-canote-zipp-banner"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex01": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner01"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner01": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex02": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner02"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner02": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex03": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner03"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner03": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex04": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner04"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner04": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex05": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner05"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner05": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#guia-guidao-e-canote-zipp-flex06": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#guia-guidao-e-canote-zipp-banner06"]
+  },
+  "image#guia-guidao-e-canote-zipp-banner06": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>Suba na sua bicicleta e pedale. Você logo descobrirá os muitos impedimentos à velocidade. Colinas. Resistência ao vento. E, possivelmente, como você está conectado e interagindo com sua bicicleta. Considere o que acontece quando você faz muito esforço sozinho. Você vai mais rápido usando a mesma potência com a lombar, as mãos no drops ou talvez nos manetes de freios. Mas você pode manter essa posição confortavelmente para se beneficiar da velocidade? É por isso que os guidões, avanços e canote de selim Zipp sempre foram desenvolvidos com foco no ajuste (Fit) em primeiro lugar - para torná-lo mais rápido.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>Se você for eficiente e estiver confortável nessa posição, você vai muito mais rápido. Essa simples verdade do desempenho no ciclismo está no centro da filosofia de ajuste (Fit) em primeiro lugar da Zipp para projetar guidão, avanço e canote de selim. Pense nesses produtos como acessórios de velocidade: atualizações projetadas com precisão que o tornam mais rápido por meio de um ajuste preciso, uma posição eficiente e ergonomia superior. Para ajudar os ciclistas a encontrar sua melhor opção, a Zipp classifica as ofertas de liga e carbono por alcance (o foco do gravel 70 XPLR, 70 mm curto, 80 mm médio, 88 mm longo) e posição do piloto (baixa, alta). Os canotes estão disponíveis em uma ampla variedade de comprimentos para emparelhar com barras para um ajuste preciso. Os canotes de selim são seguros, leves e fáceis de ajustar.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>A configuração da alavanca de freio é crítica nos dias de hoje; este é um guia conveniente para configurar alavancas de freio SRAM em guidões Zipp. A melhor maneira é começar na parte inferior da faixa e, uma vez que o tom da barra esteja definido para o uso do drops, mova a alavanca do freio para cima ou para baixo na faixa para encontrar a posição da alavanca do freio. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card03-cta": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "callToActionText":"Compre Guidões ",
+      "callToActionUrl":"/componentes/guidao",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"]
+    }
+  },
+  
+  "info-card#guia-guidao-e-canote-zipp-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>A Zipp oferece 12 modelos de guidão com tampo redondo, ergonômicos ou aerodinâmicos. Escolha entre 70, 80 e 88 mm de alcance do guidão. Encontre o guidão que lhe permite ir mais rápido.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card04-cta": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "callToActionText":"Compre Canotes ",
+      "callToActionUrl":"/componetes/canote",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>Canotes Zipp em 76 posições exclusivas em seis diferentes ângulos de elevação e comprimentos de 60 mm a 150 mm para atender às suas necessidades de haste. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#guia-guidao-e-canote-zipp-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"Garantia Vitalícia da Zipp ",
+      "subhead": "<p>As rodas, aros e guidões Zipp, avanço, canote de selim vêm com uma garantia vitalícia para defeitos do produto, bem como uma política de substituição de impacto e danos vitalícia* que cobre todos os danos ocorridos durante a condução.</p><p>*As apólices vitalícias não são transferíveis. Comprovante de compra é necessário. Para o produto Model Year 2021 vendido a partir de 5 de maio. Os Componentes Eletrônicos possuem uma cobertura de garantia de 2 anos. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    
+    "store.custom#pagina-padrao": {
+        "blocks": [
+            "info-card#sobre-interna-banner-1",
+            "rich-text#sobre-interna-text"
+        ]
+    },
+    "info-card#sobre-interna-banner-1": {
+        "props": {
+            "id": "info-card-sobre-interna-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-2.jpg",
+            "headline": "Título Exemplo",
+            "subhead": "Subtitulo",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": "sobre-interna-banner-primary",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#sobre-interna-text": {
+        "props": {
+            "text": "# H1 Example \n\n ## H2 Example \n\n ### H3 Example \n\n Texto corrido: Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus \n\n **Strong text** \n\n [Link Example www.example.com](https://www.google.com) \n\n [link text itself]: http://www.reddit.com \n\n ![alt text](https://www.sram.com/globalassets/publicsites/cms-campaign-pages/company/listen.-learn.-take-action/5_brand_lockup_1816x100_cenetered2.png?w=908&format=webp 'Title Text 1') \n\n Lista não ordenada: \n - Bike 1 \n - Bike 2 \n - Bike 3 \n\n ",
+            "blockClass": "sobre-interna-text"
+        }
+    }
+}

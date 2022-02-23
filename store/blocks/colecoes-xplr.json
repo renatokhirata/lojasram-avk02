@@ -1,0 +1,140 @@
+{
+  "store.custom#colecoes-xplr": {
+    "blocks": [
+      "flex-layout.row#colecoes-xplr-flex01",
+      "info-card#colecoes-xplr-content",
+      "info-card#colecoes-xplr-card02",
+      "info-card#colecoes-xplr-card03",
+      "info-card#colecoes-xplr-card04",
+      "info-card#colecoes-xplr-card05",
+      "info-card#colecoes-xplr-card06",
+      "flex-layout.row#colecoes-xplr-flex02"
+    ]
+  },
+
+  "flex-layout.row#colecoes-xplr-flex01": {
+    "props": {
+      "id": "comparar",
+      "blockClass": "tablebf"
+    },
+    "children": [
+      "image#colecoes-xplr-banner"
+    ]
+  },
+
+  "image#colecoes-xplr-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#colecoes-xplr-content": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Pedale com ele",
+      "subhead": "A coleção XPLR da Zipp permite que você pedale em qualquer percurso gravel (superfícies irregulares ou cascalho) que surgir em seu caminho. O conjunto de rodas 101 XPLR utiliza a nossa tecnologia de 'conformidade do tornozelo' da MTB para uma roda de gravel diferenciada. Combine isso com o pneu G40 XPLR comprovado em corridas da Zipp e sua bicicleta parecerá um tapete mágico. A nossa oferta XPLR original, o guidão All-road Service Course SL 70 XPLR, é ideal para encontrar a sua “zona de conforto” para horas de condução difícil. Então pedale com isso.",
+      "callToActionText": "Conheça a coleção",
+      "callToActionUrl": "/xplr?_q=xplr&map=ft",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": "info-card-colecoes",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-xplr-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "Rodas 101 XPLR",
+      "subhead": "O 101 XPLR é a nossa primeira roda especialmente desenvolvida para o gravel (superfícies irregulares ou cascalho). Com a nossa tecnologia Moto, este conjunto de rodas oferece aos ciclistas de gravel mais controle e durabilidade em terrenos acidentados, proporcionando um estilo de pilotagem.  ",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/roda-zipp-101-xplr-a1-650b-dianteiro-28-raios-boost-kwiqsand/p",
+      "blockClass": ["info-card-colecoes-reverse","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-xplr-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Tecnologia MOTO",
+      "subhead": "O aro de parede única da Zipp's Moto Technology é a abordagem ideal para terrenos com pavimento complicados, em decorrência de um recurso que chamamos de 'conformidade do tornozelo'. Imagine um corredor fazendo uma curva fechada, o tornozelo flexionado naturalmente para manter a aderência enquanto o corredor se inclina. O aro pode flexionar localmente para ficar paralelo ao solo durante as curvas, o que aumenta a tração como um tornozelo humano.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes-big","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-xplr-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Guidão Service Course SL-70 XPLR",
+      "subhead": "A resposta da Zipp - fiel à nossa filosofia de ajuste (Fit) em primeiro lugar para o design do guidão - é um inovador guidão all-road, o Service Course SL 70 XPLR.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/guidao-zipp-course-70-xplr-a2-44cm-31-8mm-preto/p",
+      "blockClass": ["info-card-colecoes-big","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+    "info-card#colecoes-xplr-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "Pneu G40 XPLR ",
+      "subhead": "O Zipp G40 XPLR é um pneu largo (40mm) projetado para controle, que no gravel (superfícies irregulares ou cascalho) se traduz em maior velocidade geral.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/pneu-mtb-zipp-g40-xplr-clincher-700x40c/p",
+      "blockClass": ["info-card-colecoes-reverse","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#colecoes-xplr-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Garantia vitalícia",
+      "subhead": "Rodas Zipp, guidão, avanço e canote de selim vêm com garantia vitalícia para problemas com o produto durante a pilotagem. A garantia vitalícia não é transferível. Comprovante de compra é necessário.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/garantia",
+      "blockClass": ["info-card-colecoes-big","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#colecoes-xplr-flex02": {
+    "props": {
+      "id": "comparar",
+      "blockClass": ["tablebf", "margin-bottom"]
+    },
+    "children": [
+      "image#colecoes-xplr-banner"
+    ]
+  },
+
+  "image#colecoes-xplr-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  }
+
+}

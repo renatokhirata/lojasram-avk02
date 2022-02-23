@@ -1,0 +1,38 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+
+// Colors
+$red: #e51937;
+$dark: #000;
+$grey: #707070;
+$light: #fff;
+$midGrey: #9c9c9c;
+$darkGrey: #3f3f40;
+$lightGrey: #dedede;
+$lighterGrey: #f3f3f3;
+
+// Font Family
+$flaticon: "Flaticon";
+$fontPrimary: "museo-sans", sans-serif;
+$fontSecondary: "museo", serif;
+
+// Font Weight
+$extraLight: 300;
+$regular: 600;
+$bold: 900;
+
+// Breakpoints
+$maxMobile: 767px;
+$minTablet: 768px;
+$maxTablet: 1025px;
+$minDesktop: 1025px;
+
+// Font Sizes
+$size0: 13px;
+$size1: 14px;
+$size2: 14px;
+$size3: 16px;
+$size4: 18px;
+$size5: 24px;
+$size6: 32px;
+$size7: 40px;

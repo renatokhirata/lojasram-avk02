@@ -1,0 +1,43 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.container {
+  display: none;
+  padding: 20px 30px 30px;
+  text-align: right;
+  align-items: center; }
+  @media (max-width: 767px) {
+    .container {
+      padding: 15px; } }
+  .container .link, .container .term {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial; }
+    .container .link.homeLink, .container .term.homeLink {
+      display: none;
+      margin-bottom: 2px; }
+      .container .link.homeLink::before, .container .term.homeLink::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        display: block;
+        background-size: 12px;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .container .link.homeLink .homeIcon, .container .term.homeLink .homeIcon {
+        display: none; }
+  .container .caretIcon {
+    color: #707070; }
+  .container .arrow {
+    display: flex;
+    padding: 0;
+    align-items: center; }
+    .container .arrow::before {
+      content: "/";
+      display: block;
+      font-size: 13px;
+      font-weight: 300; }
+    .container .arrow .caretIcon {
+      display: none; }
+    .container .arrow.arrow--1::before {
+      display: none !important; }

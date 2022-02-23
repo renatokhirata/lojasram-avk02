@@ -1,0 +1,115 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.container {
+  margin: 0;
+  overflow: visible;
+  max-width: 100% !important;
+  border-radius: 0; }
+  .container .clearLink .element {
+    display: flex;
+    padding: 0;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start; }
+    .container .clearLink .element .imageWrapper {
+      position: relative; }
+      .container .clearLink .element .imageWrapper::before {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        content: "";
+        z-index: 1;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.05); }
+    .container .clearLink .element .nameContainer {
+      width: 100%;
+      padding: 1.75rem 0 1rem; }
+      .container .clearLink .element .nameContainer .productNameContainer .productBrand {
+        color: #707070;
+        font-weight: 300; }
+    .container .clearLink .element .priceContainer {
+      width: 55%;
+      display: inline-flex;
+      margin-right: auto;
+      justify-content: center; }
+      .container .clearLink .element .priceContainer .productPriceClass {
+        margin-right: auto; }
+      .container .clearLink .element .priceContainer .listPriceContainer {
+        margin: 0 0 3px;
+        display: flex;
+        padding: 0;
+        justify-content: flex-start; }
+        .container .clearLink .element .priceContainer .listPriceContainer .listPriceLabel {
+          display: none; }
+        .container .clearLink .element .priceContainer .listPriceContainer .listPrice {
+          padding: 0; }
+          .container .clearLink .element .priceContainer .listPriceContainer .listPrice .currencyContainer {
+            font-size: .725rem;
+            font-weight: bold; }
+      .container .clearLink .element .priceContainer .sellingPriceContainer {
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: flex-start; }
+        .container .clearLink .element .priceContainer .sellingPriceContainer .sellingPriceLabel {
+          display: none; }
+        .container .clearLink .element .priceContainer .sellingPriceContainer .price_sellingPrice {
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center; }
+          .container .clearLink .element .priceContainer .sellingPriceContainer .price_sellingPrice .currencyContainer {
+            color: #e51937;
+            font-size: 1.25rem;
+            font-weight: bold; }
+      .container .clearLink .element .priceContainer .installmentContainer {
+        color: #707070;
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: left;
+        font-weight: 300;
+        text-transform: uppercase; }
+        .container .clearLink .element .priceContainer .installmentContainer .interestRate {
+          display: none; }
+    .container .clearLink .element :global(.vtex-button) {
+      width: 40%;
+      display: inline-flex;
+      padding: 0;
+      opacity: 0;
+      min-height: auto;
+      transition: opacity .3s linear; }
+      .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label) {
+        width: 100% !important;
+        padding: 12px 0 !important; }
+        .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+          font-size: 13px;
+          font-weight: 600;
+          display: flex;
+          align-items: center; }
+          .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+            width: 15px;
+            filter: invert(1);
+            height: 15px;
+            display: block;
+            content: "";
+            margin-left: 8px;
+            background-size: contain;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-shopping-cart align-middle'%3E%3Ccircle cx='9' cy='21' r='1'%3E%3C/circle%3E%3Ccircle cx='20' cy='21' r='1'%3E%3C/circle%3E%3Cpath d='M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center; }
+        .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+          font-size: 13px;
+          font-weight: 600; }
+    .container .clearLink .element:hover :global(.vtex-button) {
+      opacity: 1; }
+
+.imageNormal {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: unset;
+  max-height: unset; }

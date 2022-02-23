@@ -1,0 +1,112 @@
+{
+  "store.custom#politica-ambiental-e-reciclagem": {
+    "blocks": [
+      "flex-layout.row#politica-ambiental-e-reciclagem-flex01",
+      "info-card#politica-ambiental-e-reciclagem-card01",
+      "info-card#politica-ambiental-e-reciclagem-card02",
+      "info-card#politica-ambiental-e-reciclagem-card03",
+      "info-card#politica-ambiental-e-reciclagem-card04",
+      "info-card#politica-ambiental-e-reciclagem-card05",
+      "info-card#politica-ambiental-e-reciclagem-card06",
+      "info-card#politica-ambiental-e-reciclagem-card07"
+    ]
+  },
+
+  "flex-layout.row#politica-ambiental-e-reciclagem-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#politica-ambiental-e-reciclagem-banner"]
+  },
+
+  "image#politica-ambiental-e-reciclagem-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "AMBIENTE",
+      "subhead": "Nossas atividades de gestão ambiental são guiadas pela nossa Política Ambiental: A SRAM está comprometida com a proteção do meio ambiente e prevenção da poluição, inclusive atendendo a todos os requisitos legais. Mantemos um sistema de gestão ambiental para reduzir o risco associado à não conformidade, atendendo aos requisitos legais, do cliente e das partes interessadas relacionados ao meio ambiente. Melhoraremos continuamente nosso sistema para se adaptar às rápidas mudanças nos requisitos legais e de mercado.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "ROHS",
+      "subhead": "A SRAM garante a conformidade com a diretiva Restriction of Hazardous Substances (RoHS), que proíbe que novos equipamentos elétricos e eletrônicos contenham níveis de substâncias perigosas acima do permitido.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "REACH",
+      "subhead": "A SRAM está comprometida com o regulamento de Registro, Avaliação, Autorização e Restrição de Produtos Químicos (REACH) para melhorar a proteção da saúde humana e do meio ambiente contra riscos que podem ser causados por produtos químicos. A SRAM não mede esforços para remover substâncias nocivas de nossos projetos de produtos.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "RECICLANDO",
+      "subhead": "Muitos produtos SRAM são recicláveis ou contêm materiais recicláveis. Recicle ou descarte esses produtos ou peças de acordo com os regulamentos locais, estaduais e federais. Não elimine com o lixo doméstico normal. Ao reciclar esses produtos corretamente, você ajudará a conservar os recursos naturais e evitar possíveis consequências ambientais negativas.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "RESÍDUOS DE EQUIPAMENTOS ELÉTRICOS E ELETRÔNICOS (REEE)",
+      "subhead": "A SRAM está comprometida com a proteção da saúde humana e com a recuperação e descarte ambientalmente amigável de lixo eletrônico. A SRAM garante a conformidade com a Diretiva de Resíduos de Equipamentos Elétricos e Eletrônicos (WEEE) para todos os nossos produtos.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "BATERIAS",
+      "subhead": "<p>Para consumidores nos Estados Unidos e Canadá, a SRAM fez parceria com a Call2Recycle®. Ligue para 1-800-8-BATTERY ou visite www.call2recycle.org para obter informações adicionais. Para outros locais, recicle ou descarte de acordo com os regulamentos locais, estaduais e federais.</p><p>Não elimine com o lixo doméstico normal. Nunca descarte as baterias no fogo.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#politica-ambiental-e-reciclagem-card07": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "FLUÍDO DOT",
+      "subhead": "O fluido DOT usado deve ser reciclado ou descartado de acordo com os regulamentos locais, estaduais e federais. Nunca despeje o fluido DOT usado em um sistema de esgoto ou drenagem, no solo ou corpo de água. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  }
+}

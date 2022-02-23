@@ -1,0 +1,60 @@
+.lgpdModal {
+    left: 30px;
+    width: 100%;
+    display: none;
+    padding: 15px 15px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+}
+.lgpdModal p {
+    color: #000;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    font-size: 14px;
+}
+.lgpdModal a {
+    color: #e51937;
+    font-weight: bold;
+    text-decoration: none;
+}
+.lgpdModal button {
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    margin: 0;
+    display: flex;
+    font-size: 14px;
+    background: #e51937;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    line-height: 1;
+    font-weight: 600;
+    white-space: nowrap;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    justify-content: center;
+}
+@media (max-width: 1024px) {
+    .lgpdModal {
+        width: 100% !important;
+        flex-direction: column;
+    }
+    .lgpdModal p {
+        margin: 0;
+    }
+    .lgpdModal button {
+        width: 100%;
+    }
+    .lgpdOpen {
+        gap: 15px;
+        padding: 15px;
+    }
+}
+.lgpdOpen {
+    display: flex;
+}

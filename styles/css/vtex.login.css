@@ -1,0 +1,141 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.box {
+  right: -150px !important; }
+
+@media (max-width: 1025px) {
+  .container {
+    margin-right: 0; } }
+
+.container :global(.vtex-button) {
+  border: 0;
+  padding: 0;
+  min-height: auto;
+  background-color: transparent; }
+  .container :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0 !important; }
+    @media (max-width: 767px) {
+      .container :global(.vtex-button) :global(.vtex-button__label) :global(.nl2) {
+        margin-left: 0; } }
+    .container :global(.vtex-button) :global(.vtex-button__label) .label {
+      padding: 0;
+      font-size: 0;
+      display: flex;
+      align-items: center; }
+      .container :global(.vtex-button) :global(.vtex-button__label) .label::before {
+        width: 12px;
+        height: 12px;
+        content: "";
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("https://dogopets.vtexassets.com/arquivos/white-user-min.png"); }
+        @media (max-width: 767px) {
+          .container :global(.vtex-button) :global(.vtex-button__label) .label::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z M256,240 c-57.897,0-105-47.103-105-105c0-57.897,47.103-105,105-105c57.897,0,105,47.103,105,105C361,192.897,313.897,240,256,240z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cpath d='M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195 C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15 C481,444.833,460.745,395.539,423.966,358.195z M61.66,482c7.515-85.086,78.351-152,164.34-152h60 c85.989,0,156.825,66.914,164.34,152H61.66z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+            width: 15px;
+            height: 15px; } }
+      .container :global(.vtex-button) :global(.vtex-button__label) .label::after {
+        width: auto;
+        height: 12px;
+        color: #aab1b3;
+        display: block;
+        font-size: .7rem;
+        margin-left: 8px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        content: "Minha Conta"; }
+        @media (max-width: 767px) {
+          .container :global(.vtex-button) :global(.vtex-button__label) .label::after {
+            display: none; } }
+
+.inputContainerEmail :global(.vtex-input-prefix__group) {
+  border-width: 1px;
+  border-radius: 0; }
+
+.options .formTitle {
+  margin-top: 0;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.options .optionsList {
+  margin-top: 8px;
+  margin-bottom: 0; }
+  .options .optionsList :global(.vtex-button) {
+    border-radius: 0; }
+
+.sendButton :global(.vtex-button) {
+  border-radius: 0; }
+  .sendButton :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.inputContainerPassword :global(.vtex-input-prefix__group) {
+  border-width: 1px;
+  border-radius: 0; }
+
+.inputContainerAccessCode :global(.vtex-input-prefix__group) {
+  border-width: 1px;
+  border-radius: 0; }
+  .inputContainerAccessCode :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    font-size: 12px;
+    text-align: center; }
+
+.formTitle {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.formFooter {
+  border: 0; }
+
+.accessCodeOptionBtn :global(.vtex-button), .emailPasswordOptionBtn :global(.vtex-button), .facebookOptionBtn :global(.vtex-button), .googleOptionBtn :global(.vtex-button) {
+  border: 0; }
+  .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label), .emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label), .facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label), .googleOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0;
+    font-size: 12px; }
+
+.arrowUp {
+  display: none; }
+
+.contentForm {
+  padding: 0; }
+  .contentForm .accountOptions .button {
+    padding: 0; }
+  .contentForm .accountOptions :global(.vtex-button__label) {
+    padding: 0; }
+
+.content--accountOptions {
+  padding: 6px 12px; }
+
+@media (min-width: 1025px) {
+  :global(.vtex-my-account-1-x-menu), :global(.vtex-account__page) {
+    margin-top: 0; } }
+
+.oauthLabel {
+  color: #000;
+  font-size: 13px; }
+
+:global(.vtex-styleguide-9-x-input) {
+  color: #000;
+  font-size: 14px; }
+
+.profile {
+  color: #fff;
+  text-transform: initial; }
+
+.content--emailVerification .options .formTitle {
+  font-size: 14px; }
+
+.content--emailVerification .options .optionsList .optionsListItem {
+  border: 2px solid #000; }
+  .content--emailVerification .options .optionsList .optionsListItem :global(.vtex-button__label),
+  .content--emailVerification .options .optionsList .optionsListItem .oauthProvider,
+  .content--emailVerification .options .optionsList .optionsListItem .oauthLabel {
+    font-size: 12px !important; }
+
+.content--emailVerification .options .optionsList .optionsListItemContainer {
+  border: 0; }

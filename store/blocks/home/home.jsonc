@@ -1,0 +1,259 @@
+{
+    "store.home": {
+        "blocks": [
+            // "slider-layout#demo-images",
+            "banner-topo-home",
+            "flex-layout.row#banners-home",
+            "rich-text#shelf-title",
+            "flex-layout.row#shelf",
+            "flex-layout.row#instagram"
+        ]
+    },
+    "banner-topo-home": {
+        "props": {
+            "links": [
+                {
+                    "banner": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+                    "mobile": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+                    "title": "PURA VELOCIDADE NA TRILHA",
+                    "subtitle":"A nova Zipp 3ZERO MOTO é inspirada na moto para proporcionar aos pilotos controle e durabilidade exigidas para a pura velocidade.",
+                    "urlButton": "/mtb",
+                    "buttonName": "Compre agora"
+                },
+                {
+                    "banner": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/51a26b45-4e94-48fb-ae34-ae2f8b0297ba___af9685bece541265f5e92b8e1a84e093.jpeg",
+                    "mobile": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/51a26b45-4e94-48fb-ae34-ae2f8b0297ba___af9685bece541265f5e92b8e1a84e093.jpeg",
+                    "title": "EFICIÊNCIA TOTAL DO SISTEMA",
+                    "subtitle":"As rodas Zipp 303 são projetadas para o mundo real... Um mundo de condições e superfícies de estrada imperfeitas.",
+                    "urlButton": "/roda%20zipp%20303?_q=Roda%20zipp%20303&map=ft",
+                    "buttonName": "Veja agora"
+                },
+                {
+                    "banner": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/8f672087-0fb5-4163-beb3-176c12ba00a6___1b2bf36cb187349899680ea20199ef90.jpg",
+                    "mobile": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/8f672087-0fb5-4163-beb3-176c12ba00a6___1b2bf36cb187349899680ea20199ef90.jpg",
+                    "title": "353 NSW",
+                    "subtitle":"Apresentamos nossa nova Roda Zipp 353 NSW com freio a disco.",
+                    "urlButton": "/353?_q=353&map=ft",
+                    "buttonName": "Compre agora"
+                },
+                {
+                    "banner": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/56fb993a-e7f2-4cec-a89c-7e226212ac7f___5400d9f87a91813d6293715bf507be03.jpeg",
+                    "mobile": "https://lojasram.vtexassets.com/assets/vtex.file-manager-graphql/images/56fb993a-e7f2-4cec-a89c-7e226212ac7f___5400d9f87a91813d6293715bf507be03.jpeg",
+                    "title": "ZIPP BRASIL",
+                    "subtitle":"Chegamos com toda nossa linha de produto no Brasil!",
+                    "urlButton": "/estrada",
+                    "buttonName": "Descubra agora "
+                }
+            ],
+            "perPage": {
+                "1300": 1
+            }
+        }
+    },
+    "flex-layout.row#banners-home": {
+        "children": [
+            "info-card#home-banner-1",
+            "info-card#home-banner-2",
+            "info-card#home-banner-3"
+        ],
+        "props": {
+            "blockClass": "banners-home"
+        }
+    },
+    "info-card#home-banner-1": {
+        "props": {
+            "id": "info-card-home-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/banner-home-3.jpg",
+            "headline": "encontre sua roda",
+            "callToActionText": "Ler mais",
+            "callToActionUrl": "",
+            "blockClass": "home-banner-primary",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#home-banner-2": {
+        "props": {
+            "id": "info-card-home-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/banner-home-2.jpg",
+            "headline": "AVALIAÇÃO DO ZIPP RIDE",
+            "callToActionText": "Começar",
+            "callToActionUrl": "",
+            "blockClass": "home-banner-primary",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#home-banner-3": {
+        "props": {
+            "id": "info-card-home-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/banner-home-1.jpg",
+            "headline": "CALCULADORA DE PRESSÃO DE PNEUS SEM TUBO",
+            "callToActionText": "Começar",
+            "callToActionUrl": "",
+            "blockClass": "home-banner-primary",
+            "textAlignment": "left"
+        }
+    },
+    "shelf#home": {
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "list-context.image-list#demo": {
+        "children": [
+            "slider-layout#demo-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "image": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+                    "mobileImage": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg"
+                },
+                {
+                    "image": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+                    "mobileImage": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg"
+                }
+            ]
+        }
+    },
+    "slider-layout#demo-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "info-card#banner-home-desktop-1",
+            "info-card#banner-home-desktop-2",
+            "info-card#banner-home-desktop-3",
+            "info-card#banner-home-desktop-4"
+        ]
+    },
+    "info-card#banner-home-desktop-1": {
+        "props": {
+            "id": "info-card-home-desktop",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+            "headline": "Clearance Sale",
+            "subhead": "Zipp’s 303  wheelset is designed for the real world… a world of imperfect conditions, road surfaces, and elements.",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "home-desktop",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banner-home-desktop-2": {
+        "props": {
+            "id": "info-card-home-desktop",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+            "headline": "Clearance Sale",
+            "subhead": "Zipp’s 303  wheelset is designed for the real world… a world of imperfect conditions, road surfaces, and elements.",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "home-desktop",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banner-home-desktop-3": {
+        "props": {
+            "id": "info-card-home-desktop-3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+            "headline": "Clearance Sale",
+            "subhead": "Zipp’s 303  wheelset is designed for the real world… a world of imperfect conditions, road surfaces, and elements.",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "home-desktop",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banner-home-desktop-4": {
+        "props": {
+            "id": "info-card-home-desktop-4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/lp-banner-min.jpg",
+            "headline": "Clearance Sale",
+            "subhead": "Zipp’s 303  wheelset is designed for the real world… a world of imperfect conditions, road surfaces, and elements.",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "home-desktop",
+            "textAlignment": "center"
+        }
+    },
+    
+    "rich-text#shelf-title": {
+        "props": {
+            "text": "# Mais Vendidos",
+            "blockClass": "shelf-title-home-1"
+        }
+    },
+    "flex-layout.row#shelf": {
+        "children": [
+            "list-context.product-list#demo1"
+        ]
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#demo-products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf"
+        }
+    },
+    "info-card#home": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Clearance Sale",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#question": {
+        "props": {
+            "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+            "blockClass": "question"
+        }
+    },
+    "rich-text#link": {
+        "props": {
+            "text": "\n**Reach us at**\nwww.vtex.com.br",
+            "blockClass": "link"
+        }
+    }
+}

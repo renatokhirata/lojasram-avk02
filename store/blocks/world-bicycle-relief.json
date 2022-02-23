@@ -1,0 +1,34 @@
+{
+  "store.custom#world-bicycle-relief": {
+    "blocks": [
+      "flex-layout.row#world-bicycle-relief-flex01",
+      "info-card#world-bicycle-relief-card01"
+    ]
+  },
+
+  "flex-layout.row#world-bicycle-relief-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#world-bicycle-relief-banner"]
+  },
+
+  "image#world-bicycle-relief-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#world-bicycle-relief-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<p>A World Bicycle Relief mobiliza pessoas necessitadas através do poder das bicicletas. Eles fornecem bicicletas simples e sustentáveis para pessoas em ambientes rurais em países em desenvolvimento, onde a distância é uma barreira para educação, saúde e oportunidades econômicas.</p><p>Em comparação com a caminhada, a bicicleta aumenta a capacidade de carga e a distância percorrida enquanto diminui o tempo de viagem. Eles são uma ferramenta simples e sustentável usada para preencher a lacuna entre necessidades e recursos, capacitando indivíduos, famílias e comunidades inteiras a prosperar.</p><p>A World Bicycle Relief foi fundada em 2005 por F.K. Day, cofundador da SRAM, e Leah Missbach Day em resposta ao Tsunami do Oceano Índico em 2004. Com o apoio da SRAM e de outros líderes da indústria de bicicletas, a World Bicycle Relief fez parceria com organizações humanitárias no Sri Lanka para distribuir mais de 24.000 bicicletas, reconectando sobreviventes deslocados com acesso à educação, saúde e meios de subsistência.</p><p>Desde então, eles forneceram mais de 450.000 bicicletas, reunidas em Buffalo, especialmente projetadas e montadas localmente e treinaram mais de 2.000 mecânicos de campo em 19 países ao redor do mundo.</p><p>Para saber mais sobre como você pode se envolver e contribuir para o impacto da World Bicycle Relief, visite worldbicyclerelief.org</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  }
+}
+

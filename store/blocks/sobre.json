@@ -1,0 +1,104 @@
+{
+  "store.custom#sobre": {
+    "blocks": [
+      "flex-layout.row#sobre-flex01",
+      "info-card#sobre-content",
+      "info-card#sobre-card02",
+      "info-card#sobre-card03",
+      "flex-layout.row#sobre-flex02"
+    ]
+  },
+
+  "flex-layout.row#sobre-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#sobre-banner"]
+  },
+
+  "image#sobre-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#sobre-content": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "HISTÓRIA",
+      "subhead": "A fundação da SRAM foi baseada no sonho de um homem de criar uma experiência mais divertida, eficiente e rápida em uma bicicleta. Hoje, a SRAM é uma equipe global de pessoas que entregam a mesma paixão para melhorar a experiência e expandir o potencial do ciclismo.",
+      "callToActionText": "Leia mais",
+      "callToActionUrl": "/historia",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "blockClass": ["info-card-colecoes-big","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#sobre-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "LOCALIZAÇÕES ",
+      "subhead": "A presença global da SRAM nos ajuda a levar o ciclismo para todos os cantos do mundo, incluindo estradas e trilhas locais.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Leia mais",
+      "callToActionUrl": "/localizacoes",
+      "blockClass": ["info-card-colecoes-reverse","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#sobre-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "WORLD BICYCLE RELIEF",
+      "subhead": "Iniciada por um de nossos fundadores, a World Bicycle Relief é uma instituição de caridade global que mobiliza pessoas em países em desenvolvimento com bicicletas que mudam vidas, proporcionando acesso à educação, saúde e oportunidades econômicas.",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "callToActionText": "Leia mais",
+      "callToActionUrl": "/world-bicycle-relief",
+      "blockClass": ["info-card-colecoes-big","info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#sobre-flex02": {
+    "props": {"blockClass": "link-reel"},
+    "children": ["flex-layout.col#sobre-flexcol01"]
+  },
+
+  "flex-layout.col#sobre-flexcol01": {
+    "props": {},
+    "children": [
+      "info-card#sobre-linkstitle",
+      "info-card#sobre-link01"
+    ]
+  },  
+
+  "info-card#sobre-linkstitle": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "RECURSOS",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#sobre-link01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/responsabilidade-social'>RESPONSABILIDADE SOCIAL</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/fundo-de-ciclismo-sram'>FUNDO DE CICLISMO SRAM</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/divulgacao-da-cadeia-de-fornecimento'>DIVUGAÇÃO  DA CADEIA DE FORNECIMENTO</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/politica-ambiental-e-reciclagem'>POLÍTICA AMBIENTAL E RECICLAGEM</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/conformidade-regulatoria'>CONFORMIDADE REGULATÓRIA</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='/politica-de-acessibilidade'>POLÍTICA DE ACESSIBILIDADE</a>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  }
+}

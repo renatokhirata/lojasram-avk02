@@ -1,0 +1,167 @@
+{
+  "store.custom#3zeromoto": {
+    "blocks": [
+      "image#banner3zero",
+      "info-card#3zero-content",
+      "flex-layout.row#3zero-content1",
+      "flex-layout.row#3zero-content3",
+      "flex-layout.row#3zero-content2",
+      "info-card#3zero-content4",
+      "info-card#3zero-content6",
+      "info-card#3zero-content7"
+    ]
+  },
+
+  "flex-layout.row#banner3zero": {
+    "props": {
+      "id": "comparar",
+      "blockClass": "tablebf"
+    },
+    "children": [
+      "image#banner3zero"
+    ]
+  },
+
+  "image#banner3zero": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#3zero-content": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/docz1.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/docz1.png",
+      "headline": "INSPIRADO EM MOTOS. CONTROLE + DURABILIDADE = VELOCIDADE ",
+      "subhead": "<p>O conjunto de rodas enduro/trail 3ZERO MOTO carbono 27.5 e 29 da Zipp é inspirado nas motocicletas para fornecer aos ciclistas o controle e a durabilidade necessários para a velocidade pura da trilha. Este conjunto de rodas e sua tecnologia MOTO já são comprovados com várias vitórias na Enduro World Series com nossa parceria pioneira com o Lapierre Zipp Collective.</p><p>Enquanto outras marcas de rodas limitam seu foco aos designs tradicionais de aro, os engenheiros da Zipp - desinibidos pela tecnologia herdada - adotaram uma abordagem diferente. Eles olharam para os esportes com motos como modelo. O aro de parede única da Zipp's Moto Technology é a abordagem ideal para uma roda de enduro/trail. A borda resultante fornece algo que chamamos de “conformidade do tornozelo”. Imagine um corredor fazendo uma curva fechada, o tornozelo flexionando naturalmente para manter a aderência enquanto o corredor se inclina. O aro 3ZERO pode flexionar localmente para ficar paralelo ao solo durante as curvas, aumentando a tração como um tornozelo humano se ajusta durante a corrida. Essa capacidade de torcer localmente permite que ele se desvie durante impactos sem que o ciclista seja jogado. A 3ZERO MOTO ajuda você a seguir a rota mais direta, economizando segundos quando e onde eles contam mais. </p>",
+      "callToActionText": "Compre a 3ZERO MOTO",
+      "callToActionUrl": "/link",
+      "blockClass": ["info-card-colecoes", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#3zero-content1": {
+    "children": ["info-card#3zero-content1"],
+    "props": {
+      "blockClass": "info-card-full-lp",
+      "fullWidth": true
+    }
+  },
+
+  "info-card#3zero-content1": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "headline": "RODAS 3ZERO MOTO",
+      "subhead": "O novo conjunto de rodas de enduro/trail 3ZERO MOTO carbono 27.5 e 29 da Zipp é inspirado nas motocicletas para fornecer aos ciclistas o controle e a durabilidade necessários para velocidade pura.",
+      "callToActionText": "Compre Rodas",
+      "callToActionUrl": "/link",
+      "blockClass": ["info-card-colecoes-reverse", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#3zero-content3": {
+    "children": ["info-card#3zero-content3"],
+    "props": {
+      "blockClass": "info-card-full-lp",
+      "fullWidth": true
+    }
+  },
+
+  "info-card#3zero-content3": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-32adb7bc6859.png",
+      "headline": "CUBOS ZM2 ",
+      "subhead": "O conjunto de cubos ZM2 da Zipp oferece desempenho e precisão confiável para as trilhas mais difíceis. Este cubo produzido com engenharia alemã possui 12 garras e 132 pontos de engate para uma resposta mais rápida.",
+      "callToActionText": "Compre Cubos",
+      "callToActionUrl": "/componentes/cubos-e-mecanismos",
+      "blockClass": ["info-card-colecoes-reverse", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#3zero-content2": {
+    "children": ["info-card#3zero-content2"],
+    "props": {
+      "blockClass": "info-card-full-lp",
+      "fullWidth": true
+    }
+  },
+
+  "info-card#3zero-content2": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-a0161ca168bf.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-a0161ca168bf.png",
+      "headline": "AROS 3ZERO MOTO",
+      "subhead": "Acreditamos que o todo é maior que a soma de suas partes, e as rodas 3ZERO MOTO completas incorporam essa filosofia. Mas também oferecemos a opção de comprar apenas os aros 3ZERO MOTO.",
+      "callToActionText": "Compre Aros",
+      "callToActionUrl": "/link",
+      "blockClass": ["info-card-colecoes-reverse", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#3zero-content4": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-5ee1eccc8a55.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-5ee1eccc8a55.png",
+      "headline": "TECNOLOGIA MOTO",
+      "subhead": "O aro de parede única da Zipp Moto Technology é a abordagem ideal para terrenos de pavimentos complicados, graças a um recurso que chamamos de 'conformidade do tornozelo'. Imagine um corredor fazendo uma curva fechada, o tornozelo flexionando naturalmente para manter a aderência enquanto o corredor se inclina. O aro pode flexionar localmente para ficar paralelo ao solo durante as curvas, o que aumenta a tração como um tornozelo humano.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes-big", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#3zero-content6": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-09e85a8f95dd.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-09e85a8f95dd.png",
+      "headline": "GRÁFICOS DE LINHAS DE VELOCIDADE",
+      "subhead": "Nossos novos gráficos Speed Line oferecem a opção de 8 cores para uma roda com a estética de alto desempenho.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes-big", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#3zero-content7": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-980680938ffd.png",
+      "mobileImageUrl": "https://lojasram.vtexassets.com/arquivos/ezgif-4-980680938ffd.png",
+      "headline": "GARANTIA VITALÍCIA",
+      "subhead": "Estamos confiantes na durabilidade da Tecnologia MOTO. Cada roda ou aro 3ZERO MOTO inclui uma garantia vitalícia para problemas de produto durante a condução. A garantia vitalícia 3ZERO MOTO não é transferível. Comprovante de compra é necessária.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/garantia",
+      "blockClass": ["info-card-colecoes-reverse", "info-card-flextop"],
+      "textAlignment": "left"
+    }
+  }
+
+}

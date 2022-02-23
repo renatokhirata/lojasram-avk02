@@ -1,0 +1,72 @@
+{
+  "store.custom#historia": {
+    "blocks": [
+      "flex-layout.row#historia-flex01",
+      "info-card#historia-card01",
+      "info-card#historia-card02",
+      "info-card#historia-card03",
+      "info-card#historia-card04"
+    ]
+  },
+
+  "flex-layout.row#historia-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#historia-banner"]
+  },
+
+  "image#historia-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#historia-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<p>A SRAM foi fundada em um único produto em 1987 e introduziu o câmbio Grip Shift (ou twist shift) no mercado de bicicletas de estrada em 1988. Em 1991, essa tecnologia foi adaptada para mountain bikes e a SRAM cresceu rapidamente.</p><p>Em 1995, ansiosa para expandir, a SRAM apresentou seu primeiro câmbio traseiro de mountain bike, apelidado de ESP, que apresentava uma nova e exclusiva relação de atuação de cabo de 1: 1 tornando mais preciso a puxada de cabo e mais fácil de configurar do que os concorrentes. O novo câmbio traseiro foi projetado para combinar perfeitamente com os ESP Grip Shifters da SRAM, e este foi um primeiro passo crítico para a SRAM produzir um sistema de troca de marchas completo. </p><p>A SRAM estava ansiosa para crescer, tanto pela aquisição quanto pelo desenvolvimento de produtos. Em 1997, a SRAM comprou a Sachs, uma lendária fabricante alemã com experiência em correntes e engrenagens. A Sachs forneceu à SRAM um grupo de metalúrgicos e engenheiros experientes, bem como uma cadeia de sucesso e uma linha de produção de cubos com engrenagens internas.</p><p>A SRAM lançou seu primeiro câmbio traseiro XO em 2001. Foi um redesenho completo dos câmbios ESP existentes da SRAM, e o objetivo era ser inegavelmente o melhor da classe. A introdução do primeiro câmbio traseiro de alta qualidade da SRAM marcou um ponto de virada para os grupos de mountain bike da empresa.</p><p>Em 2002, a SRAM adquiriu a fabricante de suspensão RockShox. RockShox era uma das marcas mais reconhecidas no ciclismo e um inovador da indústria que introduziu suspensão e remodelou a mountain bike para todo o mundo.</p><p>A Avid foi a próxima aquisição da SRAM na primavera de 2004. A Avid produziu freios a disco hidráulicos populares e deu à SRAM mais meios para competir no mercado de componentes. Mais tarde, no mesmo ano, a SRAM comprou a Truvativ, fabricante de pedivela, movimento central, coroa. Com Truvativ como parte da família SRAM, a empresa pode finalmente vender uma bicicleta forte e completa.</p><p>Embora a SRAM tenha começado como fabricante de câmbios para bicicletas de estrada, em 1993, a empresa atendia principalmente o mercado de mountain bike em rápido crescimento. Em 2004, a SRAM planejou um retorno à estrada e iniciou o desenvolvimento de dois novos grupos de estrada. SRAM trouxe Force e Rival ao mercado em 2006 o Force foi disputado no Tour de France no ano seguinte. O grupo usou uma nova tecnologia de mudança de marchas conhecida como DoubleTap. A tecnologia permite que o ciclista mude de marcha em ambas as direções usando uma única Alavanca de câmbio / trocador de câmbio.</p><p>Em 2007, a SRAM adquiriu o fabricante líder de rodas Zipp. Em 2008, a SRAM introduziu um novo conjunto de grupos de estrada premium, SRAM RED.</p><p>A SRAM adquiriu o fabricante de pedivelas com medidor de potência Quarq em 2011. Em 2012, a SRAM incorporou medidores de potência em seu grupo de estrada RED.</p><p>Também em 2012, a SRAM introduziu uma ampla gama de marchas de mountain bike 1x11 com seu conjunto de grupos XX1. O novo conjunto de grupos fez uso de um cassete 10-42 e uma coroa frontal única patenteada que fez uso de dentes estreitos e largos de formato especial para reter a corrente sem um guia de corrente. Em 2014, esta tecnologia estreou em bicicletas de ciclocross com a introdução do grupo SRAM Force 1 (originalmente CX1). O grupo se expandiu para outras aplicações, incluindo time-trail, triatlo, bicicletas de estrada e bicicletas de fitness.</p><p>Em agosto de 2015, a SRAM anunciou o lançamento de seu grupo de estrada eletrônico sem fio (de) 11 velocidades, SRAM RED eTap. O grupo utilizou câmbios traseiro e dianteiro com baterias independentes para mudar usando sinais sem fio enviados pelas alavancas de câmbio. Os benefícios do sistema incluem trocas de marcha mais precisas, configuração mais rápida e menor manutenção.</p><p>Logo depois que a SRAM anunciou uma versão de freio a disco hidráulico de seu grupo de estrada sem fio chamado SRAM RED eTap HRD. A tecnologia HRD da SRAM fez uso de um projeto de alavanca hidráulica com ajuste de alcance e ajuste de ponto de contato da alavanca. Em maio de 2016, a SRAM também lançou a nova tecnologia de transmissão 1x12 apelidada de Eagle nas variantes XX1 e X01. A nova transmissão 1x12 tem uma amplitude de marchas de 500% que é comparável a muitas transmissões 2x no mercado hoje. Em outubro de 2016, a SRAM lançou a versão WiFLi (Wider, Faster, Lighter) de seu câmbio traseiro eTap é compatível com uma gama mais ampla de marchas do que um câmbio traseiro padrão.</p><p>Em 2017, a SRAM lançou o grupo 1x12 GX Eagle, a mesma tecnologia dos grupos Eagle XX1 e X01 a um preço mais acessível.</p><p>Em 6 de fevereiro de 2019, a SRAM lançou três novos grupos eletrônicos sem fio. Este lançamento incluiu um grupo de estrada, RED eTap AXS, e dois grupos de mountain bike, XX1 Eagle AXS e X01 Eagle AXS. Todos os grupos AXS têm conectividade bluetooth e um aplicativo móvel gratuito opcional chamado AXS, que oferece aos usuários a capacidade de reatribuir e personalizar as funções dos botões.</p><p>O novo conjunto de grupos RED apresenta um cassete de 12 velocidades com maior alcance de marchas e pulos menores entre as marchas, além de muitas outras inovações, como coroas com integração de medidor de potência, um amortecedor de fluido para a braço da polia do câmbio traseiro e transmissão de 2x e 1x coroa variantes.</p><p>Para os novos grupos de mountain bike, além de sua operação eletrônica sem fio, eles também podem se conectar com o canote Rockshox Reverb AXS. O aplicativo AXS da SRAM torna isso possível, permitindo que os usuários reatribuam funções de botão entre o canote de selim Reverb e o controlador de câmbio XX1 ou X01. O mesmo aplicativo AXS também abre a opção de usar alavancas RED eTap AXS com um sistema de transmissão Eagle AXS e um canote telescópico Reverb AXS. Por outro lado, as bicicletas com guidão com drop podem ser facilmente adaptadas com guidões de mountain bike usando o controlador de câmbio Eagle AXS com transmissão RED eTap AXS.</p><p>A SRAM lançou uma versão Force de seu grupo AXS, apresentado como SRAM Force eTap AXS. A versão Force oferece todos os mesmos recursos e benefícios do RED, mas a um preço mais baixo. O SRAM Force eTap AXS encontrou especificações em quase todas as bicicletas dos principais fabricantes.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#historia-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "PATROCÍNIOS DE EVENTOS",
+      "subhead": "<p>A SRAM tem feito esforços significativos para apoiar o ciclismo através de patrocínios feitos em parceria com promotores de corrida. Exemplos disso incluem o Amgen Tour of California, Ironman, Sea Otter Classic, Dirty Kanza e Crankworks.</p><p>A SRAM é o patrocinador de apoio neutro à corrida (NRS) para vários eventos profissionais de Ironman, incluindo os Campeonatos Nacionais dos EUA, Campeonatos Europeus e Campeonatos Mundiais.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#historia-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "TRIATLO",
+      "subhead": "<p>No final dos anos 80 e 90, os Grip Shifters SRAM foram amplamente adotados por triatletas. O objetivo do Grip Shift de permitir que os ciclistas mudem de marcha sem remover as mãos do guidão tornou o produto exclusivamente adequado às necessidades dos triatletas.</p><p>Hoje, a SRAM patrocina os principais triatletas, incluindo Jan Frodeno, Sebastien Kienle, Javier Gomez, Marinda Carfrae, Alistair e Jonathan Brownlee, Caroline Steffen e Non Stanford.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#historia-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "CICLISMO FEMININO",
+      "subhead": "<p>A SRAM é um destaque entre os fabricantes de componentes que atribuiu consistentemente valor igual ao ciclismo feminino. Os produtos e tecnologias que refletem esse compromisso com a ampla gama de necessidades das ciclistas incluem shifter Reach Adjust, WiFLi (opções de engrenagem de estrada de ampla gama), pedivelas Quarq disponíveis em comprimentos de até 162,5 mm e guidão Zipp de 36 cm de largura.</p><p>A SRAM é uma fervorosa defensora do ciclismo profissional feminino. A SRAM patrocina o Women's Amgen Tour of California com o poder da corrida de bicicleta SRAM. A empresa também patrocina muitas das principais equipes do World Tour feminino, incluindo CANYON//SRAM Racing, Boels-Dolmans Cycling Team, Twenty20 p/b SHO-AIR, CCC-Liv e Rally Cycling Team.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  }
+}

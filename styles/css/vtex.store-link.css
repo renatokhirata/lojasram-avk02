@@ -1,0 +1,33 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.link--institucional {
+  text-decoration: none; }
+  .link--institucional .label {
+    color: #fff;
+    font-size: .85rem;
+    text-transform: uppercase; }
+  .link--institucional::before {
+    width: 100px;
+    height: 20px;
+    filter: grayscale(1) invert(1);
+    content: "";
+    display: block;
+    background-size: contain;
+    background-image: url("https://lojasram.vtexassets.com/arquivos/proparts-logo.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.link--instagram-card {
+  position: relative;
+  text-decoration: none; }
+  .link--instagram-card .label {
+    left: 0;
+    color: #fff;
+    bottom: 0;
+    padding: 10px 15px;
+    position: absolute; }
+  .link--instagram-card .childrenContainer {
+    line-height: 0; }
+
+.link--social .childrenContainer {
+  line-height: 0; }

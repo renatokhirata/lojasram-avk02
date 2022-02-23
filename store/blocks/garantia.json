@@ -1,0 +1,123 @@
+{
+  "store.custom#garantia": {
+    "blocks": [
+      "flex-layout.row#garantia-flex01",
+      "info-card#garantia-card01",
+      "info-card#garantia-card02",
+      "info-card#garantia-card03",
+      "info-card#garantia-card04",
+      "info-card#garantia-card05",
+      "info-card#garantia-card06",
+      "info-card#garantia-card07",
+      "info-card#garantia-card08"
+    ]
+  },
+
+  "flex-layout.row#garantia-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#garantia-banner"]
+  },
+
+  "image#garantia-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#garantia-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "A SRAM está comprometida em fornecer componentes inovadores de alta qualidade que melhorarão sua pedalada. Esta página irá guiá-lo através do processo de garantia se o inesperado acontecer.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline":"PROCESSO DE GARANTIA",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textMode":"rich-text",
+      "subhead": "**<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Passo 1: Leve o recibo e seu produto SRAM ao seu ponto de compra original.**\n Se o seu ponto de compra não estiver disponível, entre em contato com outro revendedor para obter assistência.\n\n **<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Passo 2: O revendedor fará uma avaliação básica do produto.**\n Alguns problemas que parecem estar na garantia podem exigir serviço ou reparo de rotina. Para obter ajuda sobre serviços e solução de problemas, consulte nossos recursos de suporte <a href='https://www.sram.com/en/service'>aqui</a>.\n\n **<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Etapa 3: O revendedor entrará em contato com nosso Centro de Serviço mais próximo, onde técnicos treinados fornecerão a solução imediata de problemas e assistência regional de garantia.**\n Na maioria dos casos, o produto será enviado para a Central de Atendimento mais próxima para avaliação ou atendimento.\n\n **<span class='vtex-store-components-3-x-infoCardSubhead--vermelho'>•</span> Passo 4: O Centro de Serviço SRAM notificará o seu revendedor sobre a aprovação ou recusa do pedido de garantia.**\n Se você tiver dúvidas sobre o processo de avaliação, seu revendedor pode entrar em contato com o Centro de Serviços para saber o status de sua reclamação de garantia. Nossos Centros de Serviços se esforçam para lidar com todas as reclamações o mais rápido possível.\n\n Observe que o processo de garantia pode variar um pouco de acordo com a região.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "LOCALIZANDO DO NEGOCIANTE",
+      "subhead": "<p>Precisa de ajuda para encontrar um revendedor autorizado SRAM? Use nossa ferramenta Localizador de revendedores inserindo sua localização.</p><p>A maioria dos revendedores pode lidar com reclamações de garantia. Se o seu revendedor próximo não estiver listado, ele pode se inscrever para se tornar um revendedor SRAM entrando em contato com nosso distribuidor ou Centro de Serviço em seu país.</p>",
+      "callToActionText": "ENCONTRE UM REVENDEDOR",
+      "callToActionUrl": "https://www.sram.com/en/dealer-locator",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "BAIXE A POLÍTICA DE GARANTIA",
+      "callToActionText": "[PDF] SRAM LLC Warranty Document",
+      "callToActionUrl":"https://www.sram.com/globalassets/document-hierarchy/sram-warranty/gen-6249-sram-and-zipp-warranty-rev-b.pdf",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "cta-azul"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "Perguntas frequentes sobre GARANTIA",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card07": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textMode": "rich-text",
+      "subhead": "**P: O que não está coberto pela garantia?**\n R: Além do desgaste normal, danos resultantes de uma colisão; instalação, operação ou serviço inadequados; e o uso de peças incompatíveis ou modificadas não é coberto pela garantia. Veja os detalhes completos da política de garantia <a href='https://www.sram.com/globalassets/document-hierarchy/sram-warranty/sram-warranty.pdf'>aqui</a>.\n\n **P: Não há revendedores na minha região ou país. Ainda posso apresentar uma garantia?**\n R: Em regiões sem um Centro de Serviço SRAM, entre em contato com seu ponto de compra original. Se o seu produto foi comprado originalmente como parte de uma bicicleta completa, seu ponto de compra pode providenciar suporte por meio do processo de garantia da marca de bicicleta. Para produtos adquiridos individualmente e que não fazem parte de uma bicicleta completa, seu ponto de compra pode fornecer suporte de garantia conforme permitido pelas regras locais.\n\n **P: O que devo fazer se meu revendedor me disser para entrar em contato diretamente com a SRAM?**\n R: Para fornecer o melhor serviço técnico e suporte de garantia, o Suporte Técnico da SRAM tem apoiado apaixonadamente os ciclistas por meio de seus revendedores locais há décadas. É incomum que um revendedor autorizado não possa ajudar. Se isso ocorrer, peça ao revendedor que ligue para o Centro de Serviço mais próximo para obter assistência ou entre em contato com outro revendedor.\n\n **P: Onde posso receber suporte de garantia se minha loja de bicicletas local estiver falida ou temporariamente fechada?**\n R: Se o seu ponto de compra não estiver disponível, entre em contato com outro revendedor para obter assistência. A SRAM trabalha com milhares de revendedores em todo o mundo para garantir que você tenha o maior número possível de opções de serviço e suporte local. É essencial que seu produto seja avaliado pessoalmente por um revendedor autorizado. Muitos produtos simplesmente requerem assistência ou serviço de solução de problemas, e uma visita ao seu revendedor local ajudará você a voltar à sua bicicleta mais rapidamente. Consulte nosso <a href='https://www.sram.com/en/dealer-locator'>localizador de revendedores</a> .\n\n **P: Você tem um programa de substituição de falhas?**\n R: Como ciclistas, entendemos que as colisões fazem parte da pedalada. Se você tiver um produto danificado em um acidente, peça ao seu revendedor que entre em contato com o Centro de Serviço SRAM para obter opções. A SRAM oferece serviços pagos ou opções de reparo para muitos produtos.\n\n **P: Por quanto tempo a SRAM suporta produtos com peças de reposição?**\n R: Apoiamos nossos produtos pelo maior tempo possível, mesmo que tenham sido descontinuados. Entre em contato com seu revendedor local para opções de substituição. Se estiverem fora de estoque, eles podem entrar em contato com um distribuidor para saber a disponibilidade de produtos e peças de reposição.\n\n **P: Por que não posso garantir meu produto diretamente com você?**\n R: Adoramos bicicletas e ajudamos os ciclistas! No entanto, apoiar ciclistas como você por meio de revendedores é o processo mais direto e eficiente. Com a capacidade de solucionar problemas de sua bicicleta pessoalmente, as lojas de bicicletas locais geralmente são o melhor recurso para suporte ao produto. Nossos especialistas técnicos estão à disposição e ansiosos para ajudá-lo por meio de seu revendedor.\n\n **P: Por que foi cobrada uma taxa pelo reparo ou substituição da garantia?**\n R: Estamos orgulhosos de oferecer e apoiar nossa política de garantia e adoramos manter os ciclistas em suas bicicletas. Os revendedores de bicicletas são empresas independentes e podem cobrar uma taxa pelo tratamento de uma reclamação de garantia, especialmente quando não são o ponto de compra original. Esta não é uma taxa de SRAM, mas uma taxa de revendedor. Por favor, pergunte ao seu revendedor sobre as taxas de mão de obra antes do serviço.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#garantia-card08": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "GARANTIA ZIPP",
+      "subhead": "Detalhes sobre a garantia Zipp, incluindo informações sobre garantia vitalícia e o programa de reparo pago '<a href='https://support.zipp.com/hc/en-us/sections/4409590542107-KEEP-ROLLING-Repair-Program'>Keep Rolling</a>' podem ser encontrados na página de <a href='https://www.sram.com/en/zipp/campaigns/warranty'>garantia Zipp</a>. Você também pode se conectar com um <a href='https://www.sram.com/en/zipp/campaigns/zipp-rider-support'>especialista em Zipp</a>.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  }
+}

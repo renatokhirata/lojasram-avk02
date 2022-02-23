@@ -1,0 +1,48 @@
+{
+    "product-context": {
+        "component": "ProductContext"
+    },
+    "contato": {
+        "component": "FaleConosco"
+    },
+    "billetPrice": {
+        "component": "BilletPrice"
+    },
+    "billetPrice-summary": {
+        "component": "BilletPriceSummary"
+    },
+    "custom-search-bar": {
+        "component": "SearchBar"
+    },
+    "cluster-highlight": {
+        "component": "ClusterHighlight"
+    },
+    "product-reference": {
+        "component": "ProductReference"
+    },
+    "product-menu": {
+        "component": "ProductMenuNav"
+    },
+    "description-anchor": {
+        "component": "ProductDescriptionAnchor"
+    },
+    "specification-anchor": {
+        "component": "ProductSpecificationAnchor"
+    },
+    "custom-product-images": {
+        "component": "ProductImages"
+    },
+    "custom-product-images-slider": {
+        "component": "productImagesMobile"
+    },
+    "banner-topo-home": {
+        "component": "BannerTopoHome"
+    },
+    "lifetime-warranty": {
+        "component": "LifeTimeWarranty",
+        "composition": "children"
+    },
+    "modal-lgpd": {
+        "component": "AcceptCookies"
+    }
+}

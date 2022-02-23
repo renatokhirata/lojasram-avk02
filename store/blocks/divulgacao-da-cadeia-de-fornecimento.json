@@ -1,0 +1,46 @@
+{
+  "store.custom#divulgacao-da-cadeia-de-fornecimento": {
+    "blocks": [
+      "flex-layout.row#divulgacao-da-cadeia-de-fornecimento-flex01",
+      "info-card#divulgacao-da-cadeia-de-fornecimento-card01",
+      "info-card#divulgacao-da-cadeia-de-fornecimento-card02"
+    ]
+  },
+
+  "flex-layout.row#divulgacao-da-cadeia-de-fornecimento-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#divulgacao-da-cadeia-de-fornecimento-banner"]
+  },
+
+  "image#divulgacao-da-cadeia-de-fornecimento-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#divulgacao-da-cadeia-de-fornecimento-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "Esta declaração destina-se a atender aos requisitos de divulgação de acordo com a lei da Califórnia. Mais informações sobre práticas e esforços contínuos podem ser encontradas em Responsabilidade Social Corporativa da SRAM.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#divulgacao-da-cadeia-de-fornecimento-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "DIVULGAÇÃO DA LEI DE TRANSPARÊNCIA DA CADEIA DE SUPRIMENTO DA CALIFÓRNIA",
+      "subhead": "<p>A SRAM não tolera o uso de escravidão, trabalho forçado, tráfico humano ou outros abusos de direitos humanos.</p><p>Verificação: A SRAM comparou nossa oferta de produtos com a Lista de Produtos Produzidos por Trabalho Infantil ou Trabalho Forçado do Departamento do Trabalho dos EUA para começar a avaliar os riscos em nossa cadeia de suprimentos. Esta verificação não foi realizada por terceiros.</p><p>Auditoria e Certificação: A SRAM espera que todos os fornecedores sigam a legislação pertinente aos países em que fazem negócios. Não mantemos um padrão de empresa separado para lidar com os riscos de escravidão e tráfico humano nem exigimos que os fornecedores certifiquem o mesmo.</p><p>Responsabilidade Interna e Treinamento: A SRAM não forneceu ao pessoal da cadeia de suprimentos treinamento relacionado à identificação e mitigação de riscos de tráfico humano. Como não temos padrões específicos da empresa para lidar com escravidão e tráfico, não mantemos um programa de responsabilidade para esses fins.</p><p>À medida que a SRAM continua a crescer, reavaliaremos continuamente os riscos em nossos negócios, incluindo riscos relacionados ao uso potencial de escravidão e tráfico humano em nossa cadeia de suprimentos. Tomaremos medidas para mitigar esses riscos conforme apropriado.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  }
+}

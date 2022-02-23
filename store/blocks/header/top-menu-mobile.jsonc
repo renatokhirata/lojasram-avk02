@@ -1,0 +1,132 @@
+{
+    "vtex.menu@2.x:menu#category-menu-mobile": {
+        "props": {
+            "blockClass": "top-menu",
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#mtb-mobile",
+            "menu-item#estrada-mobile",
+            "menu-item#acessorios-mobile",
+            "menu-item#life-mobile"
+        ]
+    },
+
+    /* MENU ITEM - MTB -------------------------------------------- INIT */
+
+    "menu-item#mtb-mobile": {
+        "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "MTB",
+                "text": "MTB"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#mtb"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#mtb": {
+        "children": [
+            "vtex.menu@2.x:menu#mtb"
+        ]
+    },
+
+    /* MENU ITEM - MTB -------------------------------------------- END */
+
+    /* MENU ITEM - ESTRADA -------------------------------------------- INIT */
+
+    "menu-item#estrada-mobile": {
+        "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Estrada",
+                "text": "Estrada"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#estrada"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#estrada": {
+        "props": {
+            "width": "100%",
+            "blockClass": "top-sumenu"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#estrada",
+            "vtex.menu@2.x:menu#estrada1",
+            "vtex.menu@2.x:menu#estrada2"
+        ]
+    },
+
+    /* MENU ITEM - ESTRADA -------------------------------------------- END */
+
+    /* MENU ITEM - ACESSÓRIOS -------------------------------------------- INIT */
+
+    "menu-item#acessorios-mobile": {
+        "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Acessórios",
+                "text": "Acessórios"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#acessorios"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#acessorios": {
+        "children": [
+            "vtex.menu@2.x:menu#acessorios"
+        ]
+    },
+
+    /* MENU ITEM - ACESSÓRIOS -------------------------------------------- END */
+
+    /* MENU ITEM - LIFE -------------------------------------------- INIT */
+
+    "menu-item#life-mobile": {
+        "props": {
+            "id": "menu-item-custom-life",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "MTB",
+                "text": "MTB"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#life"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#life": {
+        "children": [
+            "vtex.menu@2.x:menu#life"
+        ]
+    }
+
+    /* MENU ITEM - LIFE -------------------------------------------- END */
+}

@@ -1,0 +1,20 @@
+.billetPriceContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 0;
+    justify-content: flex-start;
+}
+.price {
+    color: #e51937;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.boleto {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}

@@ -1,0 +1,42 @@
+@import "variables";
+
+.link--institucional {
+    text-decoration: none;
+    .label {
+        color: #fff;
+        font-size: .85rem;
+        text-transform: uppercase;
+    }
+    &::before {
+        width: 100px;
+        height: 20px;
+        filter: grayscale(1) invert(1);
+        content: "";
+        display: block;
+        background-size: contain;
+        background-image: url("https://lojasram.vtexassets.com/arquivos/proparts-logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.link--instagram-card {
+    position: relative;
+    text-decoration: none;
+    .label {
+        left: 0;
+        color: #fff;
+        bottom: 0;
+        padding: 10px 15px;
+        position: absolute;
+    }
+    .childrenContainer {
+        line-height: 0;
+    }
+}
+
+.link--social {
+    .childrenContainer {
+        line-height: 0;
+    }
+}

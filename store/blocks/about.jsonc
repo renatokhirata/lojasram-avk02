@@ -1,0 +1,117 @@
+{
+    "store.custom#sobre": {
+        "blocks": [
+            "modal-trigger#sobre-banner-1",
+            "info-card#sobre-banner-2",
+            "info-card#sobre-banner-3",
+            "info-card#sobre-banner-4",
+            "info-card#sobre-banner-5",
+            "rich-text#sobre-lista-de-links"
+        ]
+    },
+    "info-card#sobre-banner-1": {
+        "props": {
+            "id": "info-card-sobre-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-1.jpg",
+            "headline": "Sobre a SRAM",
+            "callToActionText": "História da SRAM",
+            "callToActionUrl": "",
+            "blockClass": "info-card-about-banner-primary",
+            "textAlignment": "left"
+        }
+    },
+    "modal-trigger#sobre-banner-1": {
+        "props": {
+            "blockClass": "container-sobre-banner-1"
+        },
+        "children": [
+            "info-card#sobre-banner-1",
+            "modal-layout#sobre-banner-1"
+        ]
+    },
+    "modal-layout#sobre-banner-1": {
+        "props": {
+            "blockClass": "container-sobre-banner-1"
+        },
+        "children": [
+            "modal-actions.close",
+            "video#sobre-banner-1"
+        ]
+    },
+    "video#sobre-banner-1": {
+        "props": {
+          "width": "100%",
+          "height": "600px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://www.youtube.com/watch?v=4CBIHpgXBV8&feature=emb_title",
+          "blockClass": "sobre-banner-1"
+        }
+    },
+
+    "info-card#sobre-banner-2": {
+        "props": {
+            "id": "info-card-sobre-banner-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-2.jpg",
+            "headline": "HISTÓRIA",
+            "subhead": "A fundação da SRAM foi baseada no sonho de um homem de criar uma experiência mais divertida, eficiente e rápida em uma bicicleta. Hoje, SRAM é uma equipe global de pessoas que entregam a mesma paixão para melhorar a experiência, bem como expandir o potencial do ciclismo.",
+            "callToActionText": "Ler mais",
+            "callToActionUrl": "",
+            "blockClass": ["info-card-about-banner-secondary", "right"],
+            "textAlignment": "left"
+        }
+    },
+    "info-card#sobre-banner-3": {
+        "props": {
+            "id": "info-card-sobre-banner-2",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-3.jpg",
+            "headline": "LOCALIZAÇÕES",
+            "subhead": "A pegada global da SRAM nos ajuda a levar o ciclismo a todos os cantos do globo, incluindo suas estradas e trilhas locais.",
+            "callToActionText": "Ler mais",
+            "callToActionUrl": "",
+            "blockClass": ["info-card-about-banner-secondary","left"],
+            "textAlignment": "left"
+        }
+    },
+    "info-card#sobre-banner-4": {
+        "props": {
+            "id": "info-card-sobre-banner-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-4.jpg",
+            "headline": "WORLD BICYCLE RELIEF",
+            "subhead": "Iniciada por um de nossos fundadores, a World Bicycle Relief é uma instituição de caridade global que mobiliza pessoas em países em desenvolvimento com bicicletas que mudam vidas, proporcionando acesso à educação, saúde e oportunidades econômicas.",
+            "callToActionText": "Ler mais",
+            "callToActionUrl": "",
+            "blockClass": ["info-card-about-banner-secondary","right"],
+            "textAlignment": "left"
+        }
+    },
+    "info-card#sobre-banner-5": {
+        "props": {
+            "id": "info-card-sobre-banner-2",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://lojasram.vtexassets.com/arquivos/sobre-banner-1.jpg",
+            "headline": "OUVIR. APRENDER. TOMAR UMA ATITUDE.",
+            "subhead": "",
+            "callToActionText": "Ler mais",
+            "callToActionUrl": "",
+            "blockClass": ["info-card-about-banner-secondary","left"],
+            "textAlignment": "left"
+        }
+    },
+    "rich-text#sobre-lista-de-links": {
+        "props": {
+            "blockClass": "sobre-lista-de-links",
+            "text": "## Recursos \n\n - [LIDERANÇA]() \n - [RESPONSABILIDADE SOCIAL]() \n - [SRAM CYCLING FUND]() \n - [CADEIA DE SUPRIMENTOS]() \n - [POLÍTICA AMBIENTAL E RECICLAGEM]() \n - [CONFORMIDADE REGULATÓRIA]()"
+        }
+    }
+}

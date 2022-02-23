@@ -1,0 +1,73 @@
+{
+  "store.custom#responsabilidade-social": {
+    "blocks": [
+      "flex-layout.row#responsabilidade-social-flex01",
+      "info-card#responsabilidade-social-card01",
+      "info-card#responsabilidade-social-card02",
+      "info-card#responsabilidade-social-card03",
+      "info-card#responsabilidade-social-card04"
+    ]
+  },
+
+  "flex-layout.row#responsabilidade-social-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#responsabilidade-social-banner"]
+  },
+
+  "image#responsabilidade-social-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#responsabilidade-social-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "A SRAM ACREDITA FUNDAMENTALMENTE QUE: ",
+      "subhead": "<p><br>• As bicicletas melhoram o ambiente.<br>• Bicicletas facilitam o congestionamento.<br>• As bicicletas reduzem o custo do transporte.<br>• As bicicletas melhoram a saúde e reduzem a obesidade.</p><p>Os ciclistas são um grupo de usuários apaixonados que apoia e aprimora as áreas em que pedalam.</p><p>Os produtos da SRAM promovem a sustentabilidade – eles capacitam as pessoas a transportarem a si mesmas e suas famílias a baixo custo, para se manterem saudáveis e para reduzir a poluição e melhorar a comunidade, reduzindo o uso de veículos movidos a combustíveis fósseis.</p><p>A SRAM orgulha-se de fornecer produtos de qualidade, empolgantes e sustentáveis aos seus clientes, mas nossa obrigação com a responsabilidade social não começa e termina com nossos produtos. Também estamos comprometidos em melhorar nossas práticas de negócios para aumentar nosso impacto positivo em nossos funcionários, nas pessoas em nossas comunidades, aquelas distantes e em nosso próprio planeta.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#responsabilidade-social-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "FUNCIONÁRIOS",
+      "subhead": "<p>Para manter nossa visão de ser uma empresa empolgante, devemos atrair e reter os melhores funcionários e recompensá-los com oportunidades crescentes e um ótimo ambiente de trabalho. Temos o compromisso de cumprir todas as regulamentações trabalhistas e garantir que nossas instalações e cadeia de suprimentos estejam livres de trabalho forçado, trabalho infantil, discriminação, abuso e assédio e que as pessoas que apoiam nossos negócios recebam remuneração, benefícios, horas de trabalho e segurança no ambiente de trabalho que segue, no mínimo, os regulamentos locais onde o trabalho é realizado.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#responsabilidade-social-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "COMUNIDADE",
+      "subhead": "<p>O SRAM Cycling Fund é um compromisso multimilionário para melhorar a infraestrutura de ciclismo nas comunidades locais da SRAM e em todo o mundo. Ao apoiar os esforços existentes por meio de grupos como People for Bikes e Safe Routes to School, estamos investindo na saúde de nossas comunidades locais e criando um sistema de infraestrutura melhor para as pessoas que usam nossos produtos. A missão do SRAM Cycling Fund é: Apoiar os esforços nacionais comprometidos a melhorarem a infraestrutura, a segurança e o acesso para ciclismo.</p><p>Além dos recursos financeiros, vários de nossos funcionários atuam em cargos de diretoria em organizações de ciclismo que promovem apoio em nossas comunidades.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#responsabilidade-social-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "HUMANITÁRIO",
+      "subhead": "<p>A World Bicycle Relief dedica-se a fornecer acesso à independência e meios de subsistência através do The Power of Bicycles. A organização forneceu mais de 100.000 bicicletas para capacitar estudantes, profissionais de saúde e empreendedores em áreas de necessidade. Fundada pela SRAM em 2005, a WBR é uma organização sem fins lucrativos independente que está em constante evolução para melhorar o acesso à saúde, educação e oportunidades econômicas.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  }
+}

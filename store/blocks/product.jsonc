@@ -1,0 +1,655 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.mobile#product"
+    ]
+  },
+  "responsive-layout.desktop#product": {
+    "children": [
+      "flex-layout.row#product-main",
+      "flex-layout.row#product-context-menu",
+      "flex-layout.row#product-context",
+      "flex-layout.row#product-specifications",
+      // "rich-text#collection-title-product-cards",
+      // "slider-layout#product-cards",
+      "rich-text#collection-title-3",
+      "flex-layout.row#relatedProducts-1"
+    ]
+  },
+  "rich-text#collection-title-product-cards": {
+    "props": {
+      "blockClass": "shelf-title-home-1",
+      "text": "### Serviço"
+    }
+  },
+  "slider-layout#product-cards": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "product-cards"
+    },
+    "children": [
+      "info-card#product-card-1",
+      "info-card#product-card-2",
+      "info-card#product-card-3",
+      "info-card#product-card-4"
+    ]
+  },
+  "info-card#product-card-1": {
+    "props": {
+      "id": "info-card-product",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/product-card.jpg",
+      "headline": "Lifetime Warranty",
+      "subhead": "Zipp wheels, handlebars, stems, and seatposts come with a lifetime warranty for product issues while riding. The lifetime warranty is not transferrable. Proof of purchase is required.",
+      "callToActionText": "Ver mais",
+      "callToActionUrl": "#",
+      "blockClass": "product-card",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#product-card-2": {
+    "props": {
+      "id": "info-card-product",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/product-card-2.jpg",
+      "headline": "Total System Efficiency",
+      "subhead": "The new 303 Firecrest is the first wheelset designed to achieve Total System Efficiency (TSE™). Based on the simple premise of “Efficiency = Speed,” TSE™ is our solution to speed in the real world... a world of imperfect roads and changing riding conditions.",
+      "callToActionText": "Ver mais",
+      "callToActionUrl": "#",
+      "blockClass": "product-card",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#product-card-3": {
+    "props": {
+      "id": "info-card-product",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/product-card-3.jpg",
+      "headline": "Tubeless Tire Pressure Calculator",
+      "subhead": "Optimal tire pressure is a vital factor in making you go faster. This tire pressure calculator provides recommended tire pressure for Zipp wheels.",
+      "callToActionText": "Ver mais",
+      "callToActionUrl": "#",
+      "blockClass": "product-card",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#product-card-4": {
+    "props": {
+      "id": "info-card-product",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://lojasram.vtexassets.com/arquivos/product-card-4.jpg",
+      "headline": "Tubeless tire compatibility guide",
+      "subhead": "What tubeless tires are compatible with this model?",
+      "callToActionText": "Ver mais",
+      "callToActionUrl": "#",
+      "blockClass": "product-card",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#product-specifications": {
+    "children": [
+      "flex-layout.col#product-specifications"
+    ]
+  },
+  "flex-layout.col#product-specifications": {
+    "children": [
+      "specification-anchor",
+      "product-specifications"
+    ]
+  },
+  "rich-text#collection-title-2": {
+    "props": {
+      "text": "# Mais Vendidos",
+      "blockClass": "shelf-title-home-1"
+    }
+  },
+  "rich-text#collection-title-3": {
+    "props": {
+      "blockClass": "shelf-title-home-1",
+      "text": "### Produtos Relacionados"
+    }
+  },
+  "flex-layout.row#product-context-menu": {
+    "props": {
+      "blockClass": "product-context-menu"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-menu"
+    ]
+  },
+  "flex-layout.row#product-context-menu-menu": {
+    "props": {
+      "blockClass": "product-context-menu-menu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#product-context"
+    ]
+  },
+  "vtex.menu@2.x:menu#product-context": {
+    "props": {
+      "width": "100%",
+      "orientation": "horizontal",
+      "blockClass": "product-menu",
+      "items": [
+        {
+          "id": "menu-item-overview",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Descrição",
+            "text": "Descrição"
+          }
+        },
+        {
+          "id": "menu-item-specifications",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/MTB/rodas",
+            "tagTitle": "Especificações",
+            "text": "Especificações"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#product-context-menu": {
+    "props": {
+      "blockClass": "product-context-menu",
+      "text": "[Descrição](#description) [Informações Técnicas](#specification) [Avaliações](#)"
+    }
+  },
+  "flex-layout.row#product-context": {
+    "props": {
+      "blockClass": "product-context"
+    },
+    "children": [
+      "flex-layout.col#product-context"
+    ]
+  },
+  "flex-layout.col#product-context": {
+    "children": [
+      "description-anchor",
+      "product-description"
+    ]
+  },
+  "responsive-layout.mobile#product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#buttons",
+      "flex-layout.row#product-main-mobile",
+      "flex-layout.row#product-context-menu",
+      "flex-layout.row#product-context",
+      "flex-layout.row#product-specifications",
+      "rich-text#collection-title-product-cards",
+      // "slider-layout#product-cards",
+      "rich-text#collection-title-3",
+      "flex-layout.row#relatedProducts-1"
+    ]
+  },
+  "flex-layout.row#product-main-mobile": {
+    "props": {
+      "blockClass": "product-main-mobile"
+    },
+    "children": [
+      "flex-layout.col#product-main-mobile"
+    ]
+  },
+  "flex-layout.col#product-main-mobile": {
+    "children": [
+      "product-identifier.product",
+      "vtex.store-components:product-name",
+      "stack-layout",
+      "condition-layout.product#is-product-available-mobile"
+    ]
+  },
+  "condition-layout.product#is-product-available-mobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#is-product-available-mobile",
+      "Else": "availability-subscriber"
+    }
+  },
+  "flex-layout.col#is-product-available-mobile": {
+    "children": [
+      "flex-layout.row#price",
+      "flex-layout.row#buy-button",
+      "shipping-simulator"
+    ]
+  },
+  "flex-layout.row#shipping-simulator-mobile": {
+    "props": {
+      "blockClass": "shipping-simulator-mobile"
+    },
+    "children": [
+      "shipping-simulator"
+    ]
+  },
+  "rich-text#relatedProducts": {
+    "props": {
+      "text": "Produtos relacionados",
+      "blockClass": "relatedProducts"
+    }
+  },
+  "flex-layout.row#relatedProducts-1": {
+    "children": [
+      "list-context.product-list#relatedProducts-1"
+    ]
+  },
+  "list-context.product-list#relatedProducts-1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "flex-layout.row#relatedProducts-2": {
+    "children": [
+      "list-context.product-list#relatedProducts-2"
+    ]
+  },
+  "list-context.product-list#relatedProducts-2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": [
+        "product-page-breadcrumbs",
+        "pdp-breadcrumbs"
+      ]
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "pdp-description"
+    },
+    "children": [
+      // "product-description",
+      // "product-specifications",
+      "flex-layout.col#description"
+    ]
+  },
+  "flex-layout.col#description": {
+    "children": [
+      "info-card#product-description-row-1",
+      "info-card#product-description-row-2"
+    ]
+  },
+  "info-card#product-description-row-1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#product-description-row-2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "blockClass": "pdp-product-main"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-specification-badges"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#stack": {
+    "children": [
+      // "stack-layout"
+      // "product-cluster-highlight",
+      // "product-images",
+      "custom-product-images-slider",
+      "flex-layout.row#product-breadcrumb"
+    ],
+    "props": {
+      "width": "55%",
+      "rowGap": 0,
+      "blockClass": "product-image-stack"
+    }
+  },
+  "flex-layout.row#product-image": {
+    "props": {
+      "blockClass": "product-image"
+    },
+    "children": [
+      // "product-cluster-highlight",
+      // "product-images"
+      "custom-product-images-slider"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "auto"
+      },
+      "displayThumbnailsArrows": false,
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "thumbnailMaxHeight": 0
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "pdp-right-col",
+      "width": "45%"
+    },
+    "children": [
+      "product-installments-list",
+      "flex-layout.row#buttons",
+      "flex-layout.row#product-identifier",
+      "vtex.store-components:product-name",
+      "condition-layout.product#is-product-available"
+    ]
+  },
+  "flex-layout.row#product-identifier": {
+    "props": {
+      "blockClass": "product-identifier",
+      "colSizing": "auto"
+    },
+    "children": [
+      "product-reference",
+      "product-identifier.product"
+    ]
+  },
+  "condition-layout.product#is-product-available": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#is-product-available",
+      "Else": "availability-subscriber"
+    }
+  },
+  "flex-layout.col#is-product-available": {
+    "children": [
+      "sku-selector",
+      "flex-layout.row#price",
+      "flex-layout.row#buy-button",
+      "flex-layout.row#shipping"
+    ]
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "displayMode": "text",
+      "withLink": "text"
+    }
+  },
+  "flex-layout.row#buttons": {
+    "props": {
+      "blockClass": "buttons",
+      "colSizing": "auto"
+    },
+    "children": [
+      "modal-trigger#share",
+      "lifetime-warranty"
+    ]
+  },
+  "lifetime-warranty": {
+    "children": [
+      "image#lifetime-warranty"
+    ]
+  },
+  "image#lifetime-warranty": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/lifetime.svg",
+      "blockClass": "lifetime"
+    }
+  },
+  "flex-layout.col#wishlist-button": {
+    "props": {
+      "width": "25%"
+    },
+    "children": [
+      // "wishlist-button"
+    ]
+  },
+  "flex-layout.col#stars-detail": {
+    "props": {
+      "width": "34%"
+    },
+    "children": [
+      // "stars-detail"
+    ]
+  },
+  "modal-trigger#share": {
+    "children": [
+      "rich-text#share",
+      "modal-layout#share"
+    ]
+  },
+  "rich-text#share": {
+    "props": {
+      "text": "Compartilhar",
+      "blockClass": "share-button"
+    }
+  },
+  "modal-layout#share": {
+    "props": {
+      "blockClass": "modal-share"
+    },
+    "children": [
+      "modal-actions.close",
+      "rich-text#share-modal",
+      "share"
+    ]
+  },
+  "rich-text#share-modal": {
+    "props": {
+      "blockClass": "modal-share",
+      "text": "### Compartilhe\nCompartilhe nosso produto :D"
+    }
+  },
+  "product-assembly-options": {
+    "children": [
+      "assembly-option-input-values"
+    ]
+  },
+  "assembly-option-input-values": {
+    "props": {
+      "optionsDisplay": "box"
+    }
+  },
+  "rich-text#product-description-title": {
+    "props": {
+      "text": "Descrição do Produto",
+      "blockClass": "product-description-title"
+    }
+  },
+  "flex-layout.row#product-description": {
+    "children": [
+      // "product-description"
+      // "custom-product-description"
+      // "short-description"
+    ]
+  },
+  "flex-layout.row#shipping": {
+    "props": {
+      "blockClass": "shipping-simulator"
+    },
+    "children": [
+      "shipping-simulator",
+      "rich-text#shipping"
+    ]
+  },
+  "rich-text#shipping": {
+    "props": {
+      "blockClass": "shipping",
+      "text": "**FRETE GRÁTIS** ACIMA DE R$ 899"
+    }
+  },
+  "flex-layout.row#price": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "price"
+    },
+    "children": [
+      "flex-layout.col#selling-price",
+      "billetPrice"
+    ]
+  },
+  "flex-layout.col#selling-price": {
+    "props": {
+      "blockClass": "selling-price",
+      "width": "35%"
+    },
+    "children": [
+      "product-list-price",
+      "product-selling-price",
+      "product-installments"
+    ]
+  },
+  "product-installments": {
+    "props": {
+      "interestRate": "",
+      "hasInterest": false
+    }
+  },
+  "flex-layout.row#selling-price-row": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "selling-price-row"
+    },
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+      // "product-price-savings"
+    ]
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "buy-button"
+    },
+    "children": [
+      "add-to-cart-button#pdp"
+      // "modal-trigger#list-installments"
+    ]
+  },
+  "add-to-cart-button#pdp": {
+    "props": {
+      "text": "Comprar",
+      "isOneClickBuy": "true"
+    }
+  },
+  "modal-trigger#list-installments": {
+    "children": [
+      "rich-text#list-installments",
+      "modal-layout#list-installments"
+    ]
+  },
+  "rich-text#list-installments": {
+    "props": {
+      "text": "Ver formas de pagamento",
+      "blockClass": "list-installments-button"
+    }
+  },
+  "modal-layout#list-installments": {
+    "props": {
+      "blockClass": "modal-list-installments"
+    },
+    "children": [
+      "modal-actions.close",
+      "product-installments-list-item"
+    ]
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+}

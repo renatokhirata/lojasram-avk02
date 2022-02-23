@@ -1,0 +1,276 @@
+{
+    "flex-layout.row#instagram": {
+        "props": {
+            "blockClass": "instagram"
+        },
+        "children": [
+            "flex-layout.col#instagram"
+        ]
+    },
+    "flex-layout.col#instagram": {
+        "props": {
+            "blockClass": "instagram"
+        },
+        "children": [
+            "flex-layout.row#instagram-head",
+            "flex-layout.row#instagram-content"
+        ]
+    },
+    "flex-layout.row#instagram-head": {
+        "props": {
+            "blockClass": "instagram-head"
+        },
+        "children": [
+            "rich-text#instagram-head",
+            "flex-layout.row#social-grid"
+        ]
+    },
+    "rich-text#instagram-head": {
+        "props": {
+            "text": "### Junte-se à família Zipp",
+            "blockClass": "instagram-head"
+        }
+    },
+    "flex-layout.row#social-grid": {
+        "props": {
+            "blockClass": "social-grid",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#follow-us",
+            "link#social-1",
+            "link#social-2",
+            "link#social-3",
+            "link#social-4"
+        ]
+    },
+    "rich-text#follow-us": {
+        "props": {
+            "text": "Siga-nos",
+            "blockClass": "follow-us"
+        }
+    },
+    "link#social-1": {
+        "props": {
+            "href": "https://www.facebook.com/zippspeed/",
+            "blockClass": "social"
+        },
+        "children": [
+            "image#social-1"
+        ]
+    },
+    "image#social-1": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/facebook.svg",
+            "blockClass": "facebook"
+        }
+    },
+    "link#social-2": {
+        "props": {
+            "href": "https://www.instagram.com/zippspeed/",
+            "blockClass": "social"
+        },
+        "children": [
+            "image#social-2"
+        ]
+    },
+    "image#social-2": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram.svg?v=1",
+            "blockClass": "instagram"
+        }
+    },
+    "link#social-3": {
+        "props": {
+            "href": "https://twitter.com/ZippSpeed",
+            "blockClass": "social"
+        },
+        "children": [
+            "image#social-3"
+        ]
+    },
+    "image#social-3": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/twitter.svg",
+            "blockClass": "twitter"
+        }
+    },
+    "link#social-4": {
+        "props": {
+            "href": "https://www.youtube.com/channel/UCfqe0wER0mdcpsI0JRpzisA",
+            "blockClass": "social"
+        },
+        "children": [
+            "image#social-4"
+        ]
+    },
+    "image#social-4": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/youtube.svg",
+            "blockClass": "youtube"
+        }
+    },
+    "flex-layout.row#instagram-content": {
+        "children": [
+            "flex-layout.col#instagram-content"
+        ]
+    },
+    "flex-layout.col#instagram-content": {
+        "children": [
+            "flex-layout.row#instagram-content-1",
+            "flex-layout.row#instagram-content-2"
+        ]
+    },
+    "flex-layout.row#instagram-content-1": {
+        "props": {
+            "blockClass": ["instagram-content", "instagram-content-1"],
+            "colSizing": "auto"
+        },
+        "children": [
+            "link#instagram-1",
+            "link#instagram-2",
+            "link#instagram-3",
+            "link#instagram-4"
+        ]
+    },
+    "flex-layout.row#instagram-content-2": {
+        "props": {
+            "blockClass": ["instagram-content", "instagram-content-2"],
+            "colSizing": "auto"
+        },
+        "children": [
+            "link#instagram-5",
+            "link#instagram-6",
+            "link#instagram-7",
+            "link#instagram-8"
+        ]
+    },
+    "link#instagram-1": {
+        "props": {
+            "href": "https://www.instagram.com/annavdbreggen/",
+            "label": "@annavdbreggen",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-1"
+        ]
+    },
+    "image#instagram-1": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-1.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-2": {
+        "props": {
+            "href": "https://www.instagram.com/kymnonstop/",
+            "label": "@kymnonstop",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-2"
+        ]
+    },
+    "image#instagram-2": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-2.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-3": {
+        "props": {
+            "href": "https://www.instagram.com/p/CEjhE6mB0Xj/",
+            "label": "@isabeau_c",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-3"
+        ]
+    },
+    "image#instagram-3": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-3.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-4": {
+        "props": {
+            "href": "https://www.instagram.com/sheyarcoiris/",
+            "label": "@sheyarcoiris",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-4"
+        ]
+    },
+    "image#instagram-4": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-4.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-5": {
+        "props": {
+            "href": "https://www.instagram.com/p/CEbrahkhaS0/",
+            "label": "@jaitkenracer",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-5"
+        ]
+    },
+    "image#instagram-5": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-5.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-6": {
+        "props": {
+            "href": "https://www.instagram.com/p/CD9VsC3B2y-/",
+            "label": "@tompidcock",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-6"
+        ]
+    },
+    "image#instagram-6": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-6.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-7": {
+        "props": {
+            "href": "https://www.instagram.com/lapierrezippcollective/",
+            "label": "@lapierrezippcollective",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-7"
+        ]
+    },
+    "image#instagram-7": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-7.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    },
+    "link#instagram-8": {
+        "props": {
+            "href": "https://www.instagram.com/cesarvillalbajr/",
+            "label": "@cesarvillalbajr",
+            "blockClass": "instagram-card"
+        },
+        "children": [
+            "image#instagram-8"
+        ]
+    },
+    "image#instagram-8": {
+        "props": {
+            "src": "https://lojasram.vtexassets.com/arquivos/instagram-8.jpg",
+            "blockClass": "instagram-card-image"
+        }
+    }
+}

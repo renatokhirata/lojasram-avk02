@@ -1,0 +1,14 @@
+@import "variables";
+
+.stackContainer--prodsum {
+    .stackItem {
+        &:last-child {
+            top: unset;
+            left: 50%;
+            right: unset;
+            width: 100%;
+            bottom: 13px;
+            transform: translateX(-50%);
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+  "store.custom#conformidade-regulatoria": {
+    "blocks": [
+      "flex-layout.row#conformidade-regulatoria-flex01",
+      "info-card#conformidade-regulatoria-card01",
+      "info-card#conformidade-regulatoria-card02",
+      "flex-layout.row#conformidade-regulatoria-flex02"
+    ]
+  },
+
+  "flex-layout.row#conformidade-regulatoria-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#conformidade-regulatoria-banner"]
+  },
+
+  "image#conformidade-regulatoria-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#conformidade-regulatoria-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "A SRAM LLC está comprometida com o mais alto padrão de excelência em tudo o que fazemos. Isso inclui manter a conformidade com regras e regulamentos globais em constante evolução, que garantem que os produtos SRAM atendam ou superem os padrões das comissões regulatórias de suas comunidades. Melhoramos continuamente nosso sistema para se adaptar aos requisitos legais em rápida mudança e esta página fornece os documentos necessários que certificam nossa conformidade em seu mercado. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#conformidade-regulatoria-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "FOLHAS DE DADOS DE SEGURANÇA (SDS)",
+      "subhead": "Para solicitar uma SDS para seu produto, entre em contato com compliance@sram.com e inclua o nome do produto e o número da peça.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#conformidade-regulatoria-flex02": {
+    "props": {
+      "blockClass": "link-reel"
+    },
+    "children": [
+      "flex-layout.col#conformidade-regulatoria-flexcol01"
+    ]
+  },
+
+  "flex-layout.col#conformidade-regulatoria-flexcol01": {
+    "props": {
+    },
+    "children": [
+      "info-card#conformidade-regulatoria-linkstitle",
+      "info-card#conformidade-regulatoria-link01"
+    ]
+  },  
+
+  "info-card#conformidade-regulatoria-linkstitle": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "CONFORMIDADE REGULATÓRIA",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "big-title", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#conformidade-regulatoria-link01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/regulatory-compliance/batteries'>BATERIAS</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/regulatory-compliance/environmental'>MEIO AMBIENTE</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/regulatory-compliance/eu-and-uk-docs'>DOCUMENTOS DA UE E DO REINO UNIDO</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/regulatory-compliance/fcc-sdoc'>FCC SDOC</a><a class='vtex-store-components-3-x-infoCardSubhead--conformidade-links' href='https://www.sram.com/en/company/legal/regulatory-compliance/regulatory-compliance-manual'>MANUAL DE CONFORMIDADE REGULATÓRIA</a>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "info-card-cinza"],
+      "textAlignment": "left"
+    }
+  }
+
+}
+

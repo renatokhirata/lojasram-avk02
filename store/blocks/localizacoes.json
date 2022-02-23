@@ -1,0 +1,229 @@
+{
+  "store.custom#localizacoes": {
+    "blocks": [
+      "flex-layout.row#localizacoes-flex01",
+      "info-card#localizacoes-card01",
+      "info-card#localizacoes-card02",
+      "info-card#localizacoes-card03",
+      "info-card#localizacoes-card04",
+      "info-card#localizacoes-card05",
+      "info-card#localizacoes-card06",
+      "info-card#localizacoes-card07",
+      "info-card#localizacoes-card08",
+      "info-card#localizacoes-card09",
+      "info-card#localizacoes-card10",
+      "info-card#localizacoes-card11",
+      "info-card#localizacoes-card12",
+      "info-card#localizacoes-card13",
+      "info-card#localizacoes-card14",
+      "info-card#localizacoes-card15",
+      "info-card#localizacoes-card16"
+    ]
+  },
+
+  "flex-layout.row#localizacoes-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#localizacoes-banner"]
+  },
+
+  "image#localizacoes-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#localizacoes-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "CHICAGO, IL",
+      "subhead": "Chicago é o lar da sede global da SRAM desde sua fundação em 1987. Grande parte da engenharia, marketing e equipe sênior da SRAM estão neste premiado espaço de escritório no próspero West Loop de Chicago. O escritório é aberto, convidativo e possui uma pista de teste popular (e bem marcada) ao redor do escritório.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "COLORADO SPRINGS, CO",
+      "subhead": "Sede da RockShox, as instalações da SRAM no Colorado ficam ao pé das montanhas rochosas, mais especificamente Pikes Peak, e oferecem alguns dos melhores passeios de bicicleta nos EUA. Grande parte das equipes de desenvolvimento de freios e suspensões trabalham no escritório, onde a gravidade é primordial para o desenvolvimento e teste de produtos.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "SAN LUIS OBISPO, CA",
+      "subhead": "As coroas, suportes inferiores, pedivelas e câmbios dianteiros são todos desenvolvidos, prototipados e testados em laboratório em nossas instalações SLO. Esses produtos são então testados em campo nas estradas e trilhas de classe mundial da região. Essa instalação também hospeda membros da equipe de marketing, desenvolvimento avançado e recursos humanos para completar esse grupo unido de SRAMmies.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "SPEARFISH, SD",
+      "subhead": "Os medidores de energia Quarq são projetados, testados, construídos e enviados para os clientes desta instalação multifuncional na extremidade oeste de Dakota do Sul. Belas vistas, estradas abertas e uma equipe próxima de funcionários que prosperam ao pé das montanhas.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "INDIANÁPOLIS, EM ",
+      "subhead": "Localizado perto o suficiente do famoso Indianapolis Motor Speedway para ouvir o zumbido dos carros de corrida, o local da SRAM em Indy, lar da Zipp, busca apaixonadamente velocidade e inovação. A instalação de mais de 7 mil metros quadrados abriga a fabricação de rodas Zipp, bem como funções essenciais de escritório para SRAM e todas as suas marcas.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "VANCOUVER, CANADÁ ",
+      "subhead": "Localizada na costa norte de Vancouver, a mais nova localização da SRAM serve como centro de serviços de revendedores do Canadá, além de abrigar a equipe da marca SRAM MTB. A pedalada de renome mundial está a poucos minutos do escritório, tornando-se a comunidade ideal para mergulhar e entender como podemos crescer o mountain bike em escala global.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card07": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "NIJKERK, HOLANDA ",
+      "subhead": "Nijkerk é uma pequena cidade localizada a 50 quilômetros a leste de Amsterdã. Com um sistema de ciclovias bem desenvolvido, mais da metade da equipe se desloca de bicicleta. A Nijkerk serve principalmente como um centro de atendimento ao cliente e revendedor.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card08": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "SCHWEINFURT, ALEMANHA",
+      "subhead": "O Centro Europeu de Desenvolvimento e Treinamento em Schweinfurt é a maior instalação SRAM da Europa. Inovações revolucionárias no sistema de transmissão MTB e Estrada são projetadas e testadas por engenheiros qualificados que também são entusiastas do ciclismo. Além disso, a localização de Schweinfurt abriga o Serviço de Concessionário para a região germânica, enquanto Vendas e Marketing cobrem os mercados europeus.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card09": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "COIMBRA, PORTUGAL",
+      "subhead": "Milhares de metros de correntes são orgulhosamente produzidos todos os dias nas instalações de Coimbra, sede do desenvolvimento e fabricação de correntes globais da SRAM.",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card10": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "CHAMBÉRY, FRANÇA ",
+      "subhead": "A pequena equipe DSD localizada perto de Chambéry fornece suporte técnico e abriga as instalações de treinamento da SRAM Technical University para o mercado francês desde julho de 2010. Localizado na entrada dos Alpes, oferece pedaladas estelares para todas as disciplinas, além de um ótimo churrasco. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card11": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "SHEN KANG, TAICHUNG, TAIWAN ",
+      "subhead": "Shen Kang é a sede asiática da SRAM, e a fábrica adjacente é onde a maioria dos componentes da SRAM são fabricados. O famoso circuito do aeroporto de Taichung é a rota de pedaladas durante o almoço mais popular para os SRAMmies aqui. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card12": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "WATERFORD, IRLANDA ",
+      "subhead": "O escritório da SRAM na Irlanda está localizado em Waterford e abriga uma parte de nossas equipes de finanças globais e TI. Waterford é a cidade mais antiga da Irlanda e conhecida por sua herança Viking, Crystal Glass e a trilha de ciclismo Greenway. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card13": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "XI TUN, TAICHUNG, TAIWAN ",
+      "subhead": "Taichung é uma cidade central para a indústria de bicicletas e, para a SRAM, é onde projetamos mais de 1.500 peças exclusivas anualmente. Grandes passeios são abundantes, pois o Centro de Desenvolvimento da Ásia da SRAM fica perto de Squirrel Hill e das famosas trilhas Super 8. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card14": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "KUNSHAN, CHINA ",
+      "subhead": "Kunshan tem sido um dos maiores e mais importantes centros de produção para a indústria de bicicletas e perto de Xangai. O escritório não é apenas uma extensão da longa história da SRAM na China, mas também um local de fornecimento e vendas. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card15": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "FENGCHOU, TAICHUNG, TAIWAN ",
+      "subhead": "A mais nova e mais avançada das instalações da SRAM no norte de Taichung apresenta fabricação de fibra de carbono, fundição sob pressão e moldagem por injeção de plástico. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#localizacoes-card16": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "MELBOURNE, AUSTRÁLIA ",
+      "subhead": "Não muito longe das melhores trilhas e pedaladas de estrada de Melbourne fica a localização australiana da SRAM. Este espaço eficiente atende a muitas funções, incluindo vendas, serviços, marketing, fornecimento, suporte e treinamento de revendedores líderes do setor e hospeda a frota local de veículos de suporte de corrida neutra da SRAM. ",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "margin-bottom"],
+      "textAlignment": "left"
+    }
+  }
+}

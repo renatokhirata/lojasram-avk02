@@ -1,0 +1,113 @@
+.container {
+  position: relative;
+  height: 90vh;
+}
+.container img {
+  height: 100%;
+  object-fit: cover;
+}
+.containerText {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  left: 50%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerText h2 {
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+  font-family: Forza, serif;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.containerText p {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.containerText a {
+  background: #e51937;
+  padding: 15px 25px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.containerText a:hover {
+  background: #fff;
+  border-color: #e51937;
+  color: #e51937;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider :global(.slick-track) {
+  display: flex;
+}
+
+.slider :global(.slick-dots) {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider :global(.slick-dots) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.slider :global(.slick-dots) ul li button {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  border: 0;
+  background: #fff;
+}
+.slider :global(.slick-dots) ul li {
+  line-height: 0;
+}
+.slider :global(.slick-dots) ul li:global(.slick-active) button {
+  background-color: #e51937;
+}
+.slider :global(.slick-dots) ul li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .containerText {
+    width: 80%;
+  }
+  .containerText h2 {
+    font-size: 2.5rem;
+  }
+  .containerText p {
+    font-size: 1rem;
+  }
+  .slider :global(.slick-dots) {
+    top: 20%;
+  }
+}

@@ -1,0 +1,191 @@
+@import "variables";
+@import "icons";
+
+.box {
+	right: -150px !important;
+}
+
+.container {
+    @media (max-width: $maxTablet) {
+        margin-right: 0;
+    }
+    :global(.vtex-button) {
+        border: 0;
+        padding: 0;
+        min-height: auto;
+        background-color: transparent;
+        :global(.vtex-button__label) {
+            padding: 0 !important;
+			@media (max-width: $maxMobile) {
+				:global(.nl2) {
+					margin-left: 0;
+				}
+			}
+            .label {
+                padding: 0;
+				font-size: 0;
+				display: flex;
+				align-items: center;
+                &::before {
+					width: 12px;
+					height: 12px;
+                    content: "";
+					display: block;
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center;
+					background-image: url("https://dogopets.vtexassets.com/arquivos/white-user-min.png");
+					@media (max-width: 767px) {
+						background-image: url($user2);
+						width: 15px;
+						height: 15px;
+					}
+                }
+                &::after {
+					width: auto;
+					height: 12px;
+					color: #aab1b3;
+					display: block;
+					font-size: .7rem;
+					margin-left: 8px;
+					line-height: 12px;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					content: "Minha Conta";
+					@media (max-width: 767px) {
+						display: none;
+					}
+                }
+            }
+        }
+    }
+}
+
+.inputContainerEmail {
+	:global(.vtex-input-prefix__group) {
+		border-width: 1px;
+		border-radius: 0;
+	}
+}
+
+.options {
+	.formTitle {
+		margin-top: 0;
+		font-size: $size1;
+		text-transform: uppercase;
+	}
+	.optionsList {
+		margin-top: 8px;
+		margin-bottom: 0;
+		:global(.vtex-button) {
+			border-radius: 0;
+		}
+	}
+}
+
+.sendButton {
+	:global(.vtex-button) {
+		border-radius: 0;
+		:global(.vtex-button__label) {
+			font-size: $size1;
+			text-transform: uppercase;
+		}
+	}
+}
+.inputContainerPassword {
+	:global(.vtex-input-prefix__group) {
+		border-width: 1px;
+		border-radius: 0;
+	}
+}
+
+.inputContainerAccessCode {
+	:global(.vtex-input-prefix__group) {
+		border-width: 1px;
+		border-radius: 0;
+		:global(.vtex-styleguide-9-x-input) {
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+}
+
+.formTitle {
+	margin-top: 0;
+    font-size: $size1;
+    font-weight: $regular;
+    text-transform: uppercase;
+}
+
+.formFooter {
+	border: 0;
+}
+
+.accessCodeOptionBtn, .emailPasswordOptionBtn, .facebookOptionBtn, .googleOptionBtn {
+	:global(.vtex-button) {
+		border: 0;
+		:global(.vtex-button__label) {
+			padding: 0;
+			font-size: 12px;
+		}
+	}
+}
+
+.arrowUp {
+	display: none;
+}
+
+.contentForm {
+	padding: 0;
+	.accountOptions {
+		.button {
+			padding: 0;
+		}
+		:global(.vtex-button__label) {
+			padding: 0;
+		}
+	}
+}
+.content--accountOptions {
+	padding: 6px 12px;
+}
+:global(.vtex-my-account-1-x-menu), :global(.vtex-account__page) {
+	@media (min-width: 1025px) {
+		margin-top: 0;
+	}
+}
+
+.oauthLabel {
+    color: #000;
+    font-size: $size0;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+    color: $dark;
+    font-size: $size1;
+}
+.profile {
+	color: $light;
+	text-transform: initial;
+}
+
+.content--emailVerification {
+	.options {
+		.formTitle {
+			font-size: 14px;
+		}
+		.optionsList {
+			.optionsListItem {
+				border: 2px solid $dark;
+				:global(.vtex-button__label),
+				.oauthProvider,
+				.oauthLabel {
+					font-size: 12px !important;
+				}
+			}
+			.optionsListItemContainer {
+				border: 0;
+			}
+		}
+	}
+}

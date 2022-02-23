@@ -1,0 +1,10 @@
+@import url("https://s3-sa-east-1.amazonaws.com/we.digi.tech/fonts/basic/flaticon.css");
+@import url("https://use.typekit.net/jny2shi.css");
+.product-identifier--productReference {
+  color: #707070;
+  font-size: .85rem;
+  font-weight: 400;
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .product-identifier--productReference {
+      padding: 0 15px; } }

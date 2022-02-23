@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "vtex": "^2.108.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-clean-css": "^4.3.0"
+  }
+}

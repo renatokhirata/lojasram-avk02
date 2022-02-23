@@ -1,0 +1,151 @@
+@import "variables";
+@import "icons";
+
+.container {
+    margin: 0;
+    overflow: visible;
+    max-width: 100% !important;
+    border-radius: 0;
+    .clearLink {
+        .element {
+            display: flex;
+            padding: 0;
+            position: relative;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+            .imageWrapper {
+                position: relative;
+                &::before {
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    content: "";
+                    z-index: 1;
+                    position: absolute;
+                    background-color: rgba(0,0,0,.05);
+                }
+            }
+            .nameContainer {
+                width: 100%;
+                padding: 1.75rem 0 1rem;
+                .productNameContainer {
+                    .productBrand {
+                        color: #707070;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .priceContainer {
+                width: 55%;
+                display: inline-flex;
+                margin-right: auto;
+                justify-content: center;
+                .productPriceClass {
+                    margin-right: auto;
+                }
+                .listPriceContainer {
+                    margin: 0 0 3px;
+                    display: flex;
+                    padding: 0;
+                    justify-content: flex-start;
+                    .listPriceLabel {
+                        display: none;
+                    }
+                    .listPrice {
+                        padding: 0;
+                        .currencyContainer {
+                            font-size: .725rem;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .sellingPriceContainer {
+                    display: flex;
+                    padding: 0;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .sellingPriceLabel {
+                        display: none;
+                    }
+                    .price_sellingPrice {
+                        padding: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        .currencyContainer {
+                            color: $red;
+                            font-size: 1.25rem;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .installmentContainer {
+                    color: #707070;
+                    font-size: 12px;
+                    margin-top: 5px;
+                    text-align: left;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    .interestRate {
+                        display: none;
+                    }
+                }
+            }
+            :global(.vtex-button) {
+                width: 40%;
+                display: inline-flex;
+                padding: 0;
+                opacity: 0;
+                min-height: auto;
+                transition: opacity .3s linear;
+                :global(.vtex-button__label) {
+                    width: 100% !important;
+                    padding: 12px 0 !important;
+                    :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+                        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                            font-size: 13px;
+                            font-weight: 600;
+
+                            display: flex;
+                            align-items: center;
+                            &::after {
+                                width: 15px;
+                                filter: invert(1);
+                                height: 15px;
+                                display: block;
+                                content: "";
+                                margin-left: 8px;
+                                background-size: contain;
+                                background-image: url($minicartIcon);
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                        }
+                    }
+                    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                        font-size: 13px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            &:hover {
+                :global(.vtex-button) {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.imageNormal {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: unset;
+    max-height: unset;
+}

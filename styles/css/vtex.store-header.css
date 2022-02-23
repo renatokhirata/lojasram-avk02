@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+  background: #ffffff;
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    background: #ffffff;
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #ffffff !important;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}
+
+.flexRowContent--main-header .flexCol {
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+}
+
+.flexRowContent--main-header .flexColChild {
+  display: flex;
+  align-items: center;
+}
+
+.container--layout .flexCol {
+  display: initial;
+  flex-direction: initial;
+  align-items: initial;
+}
+
+.container--layout .flexColChild {
+  display: initial;
+  align-items: initial;
+}
+
+.vtex-button {
+  background: #ffffff !important;
+  border: none !important;
+  color: #000000 !important;
+}
+
+.flexCol--topbread {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  color: #000000 !important;
+}
+
+.optionsListItem {
+  border: 1px #000000 solid;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.optionsListItemContainer {
+  border: none;
+}
+
+.submenu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media(max-width:850px){
+  .submenu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .submenuWrapper {
+    padding-left: 1.5rem;
+  }
+
+  .submenuWrapper {
+    position: relative;
+    border: none;
+  }
+
+  .styledLinkContent {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .submenuWrapper .styledLinkContent{
+    font-weight: 200;
+    margin-bottom: 0px;
+  }
+}
+
+.submenuWrapper {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: none;
+  border-top: 1px #f3f3f3 solid;
+}
+
+.submenuWrapper .styledLinkContainer {
+  padding: 0px !important;
+  margin-bottom: 15px;
+  margin-right: 100px;
+  margin-left: 0px;
+}
+
+.submenuWrapper .submenuContainer .dn {
+  display: block !important;
+}
+
+.submenuWrapper.flexRowContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper--produtos {
+  color: #e51937;
+  font-weight: 600;
+  text-transform: uppercase;
+}

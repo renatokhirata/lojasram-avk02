@@ -1,0 +1,204 @@
+@import "icons";
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderArrows {
+  background: #ffffff !important;
+  padding: 20px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-clearLink):hover :global(.vtex-button) {
+  opacity: 1;
+}
+
+@media(max-width: 1024px) {
+  .slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) {
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+}
+
+.sliderLayoutContainer--shelf {
+  margin-bottom: 30px;
+  .paginationDotsContainer {
+    display: none;
+  }
+}
+.sliderTrackContainer--shelf {
+    max-width: 1150px;
+}
+
+.sliderLayoutContainer--product-cards {
+  padding: 0 15px;
+  .slideChildrenContainer--product-cards {
+    display: flex;
+    align-items: flex-start;
+  }
+  .paginationDotsContainer {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  .sliderLeftArrow {
+    border: 1px solid #000;
+    padding: 10px;
+    transition: all .3s linear;
+    border-radius: 0;
+    &::before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-size: 25px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url($arrow2Left);
+    }
+    .caretIcon {
+      display: none;
+    }
+    &:hover {
+      background-color: #000 !important;
+      &::before {
+        background-image: url($arrow3Left);
+      }
+    }
+  }
+  .sliderRightArrow {
+    border: 1px solid #000;
+    padding: 10px;
+    transition: all .3s linear;
+    border-radius: 0;
+    &::before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-size: 25px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url($arrow2Right);
+    }
+    .caretIcon {
+      display: none;
+    }
+    &:hover {
+      background-color: #000 !important;
+      &::before {
+        background-image: url($arrow3Right);
+      }
+    }
+  }
+}
+
+.sliderLayoutContainer--shelf {
+  .sliderLeftArrow {
+    border: 1px solid #000;
+    padding: 10px;
+    transition: all .3s linear;
+    border-radius: 0;
+    &::before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-size: 25px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url($arrow2Left);
+    }
+    .caretIcon {
+      display: none;
+    }
+    &:hover {
+      background-color: #000 !important;
+      &::before {
+        background-image: url($arrow3Left);
+      }
+    }
+  }
+  .sliderRightArrow {
+    border: 1px solid #000;
+    padding: 10px;
+    transition: all .3s linear;
+    border-radius: 0;
+    &::before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-size: 25px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url($arrow2Right);
+    }
+    .caretIcon {
+      display: none;
+    }
+    &:hover {
+      background-color: #000 !important;
+      &::before {
+        background-image: url($arrow3Right);
+      }
+    }
+  }
+}
+
+.sliderLayoutContainer--carousel {
+  .sliderArrows {
+    display: none;
+  }
+  .paginationDotsContainer {
+    left: unset;
+    width: 20px;
+    right: 15px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 767px) {
+      padding-top: 30px;
+      justify-content: flex-start;
+    }
+    .paginationDot {
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

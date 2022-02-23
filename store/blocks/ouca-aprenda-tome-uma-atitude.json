@@ -1,0 +1,61 @@
+{
+  "store.custom#ouca-aprenda-tome-uma-atitude": {
+    "blocks": [
+      "flex-layout.row#ouca-aprenda-tome-uma-atitude-flex01",
+      "info-card#ouca-aprenda-tome-uma-atitude-card01",
+      "info-card#ouca-aprenda-tome-uma-atitude-card02",
+      "flex-layout.row#ouca-aprenda-tome-uma-atitude-flex02"
+    ]
+  },
+
+  "flex-layout.row#ouca-aprenda-tome-uma-atitude-flex01": {
+    "props": {"id": "comparar","blockClass": "tablebf"},
+    "children": ["image#ouca-aprenda-tome-uma-atitude-banner"]
+  },
+
+  "image#ouca-aprenda-tome-uma-atitude-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "minWidth": "100%"
+    }
+  },
+
+  "info-card#ouca-aprenda-tome-uma-atitude-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "subhead": "<p>A SRAM continua a ser profundamente impactada pelos muitos eventos recentes de desigualdade racial e injustiça social, que vemos como manifestações de questões sociais mais amplas. Na SRAM, nos preocupamos com as pessoas e nos preocupamos em fazer os melhores produtos possíveis para os ciclistas. Nossa declaração de propósito é: “Acreditamos no poder das bicicletas e na expansão do potencial do ciclismo. Criamos e fabricamos componentes que inspiram os ciclistas.” Embora o desenvolvimento e a fabricação de produtos sempre tenham feito parte do nosso DNA, recentemente aumentamos nossos esforços para expandir o potencial do ciclismo, principalmente para negros, indígenas, pessoas de cor (BIPOC) e mulheres.</p><p>Para nós da SRAM, esta é uma questão de pessoas. Trata-se de estar ao lado dos membros de nossa equipe, atletas e comunidades locais. Trata-se de ter um coração bondoso, fazer o que é certo e acreditar que devemos nos tratar igualmente, independentemente de nossas diferenças. Somos uma empresa de bicicletas composta por pessoas que se preocupam com as pessoas. Nossas marcas têm um público mundial e sentimos que temos a responsabilidade de apoiar as vozes que não estão sendo ouvidas sobre esse assunto que significa muito para nós.</p><p>A SRAM acredita na igualdade e na diversidade. Abraçamos a capacidade de ter debates sem comprometer o respeito pelos outros. Também mantemos nós mesmos e nossos representantes em um alto padrão e agiremos se qualquer comunicação – incluindo imagens, declarações e atividades públicas, incluindo mídia social – não transmitir esse respeito. Também esperamos que nossos representantes entendam que são responsáveis por suas palavras e ações e assinaram acordos com esse entendimento claro. Essa responsabilidade e prestação de contas foram esclarecidas em todos os acordos de parceria a partir de 2021.</p><p>Sabemos que estamos em uma jornada com esses esforços, reconhecemos que há mais trabalho a fazer e reconhecemos que nossas palavras devem se traduzir em ação.</p>",
+      "callToActionMode": "none",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#ouca-aprenda-tome-uma-atitude-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "headline": "NOSSO PLANO DE AÇÃO ",
+      "subhead": "<p> SRAM está comprometida em se envolver com nossa equipe e com os membros de nossa comunidade para ouvir, aprender e agir, tanto como estudantes e líderes, para alcançar a igualdade para pessoas de várias origens e perspectivas, incluindo etnia, raça, orientação sexual, gênero e deficiência física e cognitiva. Queremos fazer mais para apoiar aqueles que foram discriminados e marginalizados. Podemos fazer mais para entender e apoiar uns aos outros e construir uma comunidade de ciclismo mais inclusiva. Também reconhecemos que nem sempre concordamos, mas respeitaremos os diferentes pontos de vista e ouviremos para aprender e melhorar.</p><p>Estamos empenhados em fazer mais. Isto é só o começo.</p>",
+      "callToActionText": "Saiba Mais",
+      "callToActionLink": "/link",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#ouca-aprenda-tome-uma-atitude-flex02": {
+    "props": {"id": "comparar","blockClass": ["tablebf", "super-margin-bottom"]},
+    "children": ["image#ouca-aprenda-tome-uma-atitude-banner"]
+  },
+
+  "image#ouca-aprenda-tome-uma-atitude-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass":"banner-menor"
+    }
+  }
+}
+

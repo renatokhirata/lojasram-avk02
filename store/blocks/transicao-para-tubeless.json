@@ -1,0 +1,136 @@
+{
+  "store.custom#transicao-para-tubeless": {
+    "blocks": [
+      "flex-layout.row#transicao-para-tubeless-flex00",
+      "info-card#transicao-para-tubeless-card01",
+      "flex-layout.row#transicao-para-tubeless-flex01",
+      "info-card#transicao-para-tubeless-card02",
+      "flex-layout.row#transicao-para-tubeless-flex02",
+      "info-card#transicao-para-tubeless-card03",
+      "video#transicao-para-tubeless-video01",
+      "info-card#transicao-para-tubeless-card04",
+      "info-card#transicao-para-tubeless-card05",
+      "info-card#transicao-para-tubeless-card06",
+      "flex-layout.row#transicao-para-tubeless-flex03"
+    ]
+  },
+
+  "flex-layout.row#transicao-para-tubeless-flex00": {
+    "children": ["image#transicao-para-tubeless-banner"]
+  },
+  "image#transicao-para-tubeless-banner": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "minWidth": "100%"
+    }
+  },
+
+  "flex-layout.row#transicao-para-tubeless-flex01": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#transicao-para-tubeless-banner01"]
+  },
+  "image#transicao-para-tubeless-banner01": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": "imagem-menor"
+    }
+  },
+
+  "flex-layout.row#transicao-para-tubeless-flex02": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#transicao-para-tubeless-banner02"]
+  },
+  "image#transicao-para-tubeless-banner02": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "minWidth": "100%"
+    }
+  },
+
+  "flex-layout.row#transicao-para-tubeless-flex03": {
+    "props": {"blockClass": "banner-menor"},
+    "children": ["image#transicao-para-tubeless-banner03"]
+  },
+  "image#transicao-para-tubeless-banner03": {
+    "props": {
+      "src": "https://lojasram.vtexassets.com/arquivos/3zerobannerlpbanner.png",
+      "blockClass": ["imagem-menor", "margin-bottom"]
+    }
+  },
+
+  "video#transicao-para-tubeless-video01": {
+    "props": {
+      "width": "100%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=bo1hSYmNpvA",
+      "blockClass": "video-center"
+    }
+  },
+
+  "info-card#transicao-para-tubeless-card01": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "<p>Para os ciclistas de estrada, a hora do tubeless é agora. A tecnologia tem sido a configuração dominante para mountain bike e agora está superando os tradicionais pneus clincher para ciclismo de estrada e cascalho. Além disso, o tubeless é um componente crucial da abordagem da Zipp para ajudar os ciclistas a alcançar a Eficiência Total do Sistema (TSE™) com seus sistemas de rodas e pneus.</p><p>Com uma configuração sem câmara, o pneu forma uma vedação hermética com o formato do aro especialmente projetada. Como não há câmara para se preocupar, o tubeless elimina os furos, permitindo pressões mais baixas dos pneus. Selante de pneus, aplicado durante a instalação, protege contra perfurações de detritos na estrada e fora da estrada. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#transicao-para-tubeless-card02": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline": "Por que usar Tubeless?",
+      "subhead": "<p>Qual o papel do tubeless em fazer você ir mais rápido? Ir mais rápido, dentro ou fora do asfalto, se resume a uma fórmula simples: Eficiência = Velocidade. Sem câmara de ar interagindo com o pneu, os sistemas sem câmara têm menos atrito, o que reduz a resistência ao pedalar e amortece as vibrações. Um pneu sem câmara maior, menor pressão do pneu e um perfil de aro mais amplo otimizado para a interface do pneu contribuem para um passeio mais rápido e mais compatível. Os benefícios do tubeless são muitos:</p><br>• Melhor aderência nas curvas <br>• Maior conforto <br>• Resistência da pedalada reduzida <br>• Menos pneus furados",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#transicao-para-tubeless-card03": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"Como fazer a transição para o Tubeless?",
+      "subhead": "<p>O que você precisará:</p><p>• Rodas compatíveis sem câmara (rodas sem câmara Zipp linkadas abaixo) <br>• Pneus prontos para tubeless <br>• Selante de pneus sem câmara <br>• Ferramenta de remoção do núcleo da válvula <br>• Compressor de ar ou bomba de piso <br>• Óculos de segurança <br>• Pano limpo</p><p>Para ajudar na configuração, a SRAM desenvolveu este vídeo instrucional. O estalo de assentar um pneu sem câmara dá a você uma indicação clara de que está fazendo as coisas corretamente. A maioria dos ciclistas novatos no tubeless ganhará proficiência ao assentar o pneu e adicionar selante com apenas duas ou três instalações.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+  
+  "info-card#transicao-para-tubeless-card04": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"Fazendo a transição para tubeless",
+      "subhead": "<p>Ter a capacidade de reduzir a pressão dos pneus é um dos benefícios mais significativos dos pneus e rodas sem câmara. Ciclistas que correm sem câmara normalmente reduzem a pressão dos pneus em 10 ou mais PSI em comparação com os clinchers. Menos pressão de ar ajuda a amortecer as vibrações da estrada para maior conforto do ciclista. Também permite que a área de contato – aquela parte do pneu no solo – se espalhe para melhor tração, especialmente nas curvas. Os pneus sem câmara também costumam ter uma construção diferenciada para uma transição mais suave na borracha entre a banda de rolagem (parte superior do pneu) e sua parede lateral. Semelhante a pilotar um pneu tubular, o ciclista experimenta uma sensação mais suave ao inclinar-se agressivamente nas curvas.</p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  },
+
+  "info-card#transicao-para-tubeless-card05": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"GUIA DE PRESSÃO DE PNEU SEM CÂMARA",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta"]
+    }
+  },
+
+  "info-card#transicao-para-tubeless-card06": {
+    "props": {
+      "id": "info-card-content",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "headline":"Sobre aros sem gancho (parede lisa) - Hookless ",
+      "subhead": "<p>O uso de aros sem gancho (lado reto) da Zipp é essencial para torná-lo mais rápido através da Total System Efficiency (TSE™). Sem os ganchos, a transição entre o pneu e o aro é mais perfeita e aerodinâmica. Os aros sem gancho da Zipp têm distribuição de resina mais eficiente, o que significa rodas mais leves. Eles também são altamente duráveis. </p>",
+      "blockClass": ["info-card-colecoes", "info-card-fullwidth", "no-cta", "big-title"]
+    }
+  }
+}
